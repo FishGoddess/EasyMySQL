@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="EasyMysql:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/EasyMysql_jar</output-path>
+    <root id="archive" name="EasyMysql.jar">
+      <element id="module-output" name="EasyMysql" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/mysql-connector-java-5.1.42-bin.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

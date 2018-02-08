@@ -1,0 +1,95 @@
+﻿**********************************************************************************************************
+* 简易MySql数据库操作库 v1.0
+* 开发者：水不要鱼
+* 开发耗时：4个小时左右
+* 开发日期：2017.11.19
+* 版本：1.0
+* 目的：对 JDBC 的常用操作进行了简单的封装，简化 java 程序对Mysql数据库的操作。
+* Bug 反馈：由于时间较短，而且是一个人完成，所以我仅仅对这个库做了简单的测试，可能存在
+*          隐藏 Bug，如果你遇到了，赶紧发邮件给我！
+* 邮箱：1149062639@qq.com
+*
+**********************************************************************************************************
+* 使用步骤：
+* 1，在项目中导入 EasyMysql 库
+*
+* 2，在项目根目录下创建 DB.properties 文件，将数据库连接信息更改为你要连接的数据库信息
+*
+*     下面为 DB.properties 文件的主题内容：（等号内的。。）
+=================================
+# Mysql 数据库的主机 ip 地址
+databaseHost=127.0.0.1
+
+# 指定使用的数据库
+usingDatabase=workers
+
+# 用户名
+user=root
+
+# 密码
+password=1997
+=================================
+*     当你修改了这个文件的内容时，可以通过调用 DBManager 类中的静态方法 update() 来更新数据
+*
+* 3，开始使用库中的方法，通过 DBWorker 类来调用
+*     1）插入数据
+*           // 向 goods_cates 表插入一行数据，“8” 和 “手机” 是行内元素
+*           DBWorker.insert("goods_cates", new String[] {"8", "手机"});
+*
+*     2）删除数据
+*           // 从 goods_cates 表中删除一行数据，cate_name 是手机
+*           DBWorker.delete("goods_cates", "cate_name = \"手机\"");
+*
+*     3）修改数据
+*           // 从 goods_cates 表中修改一行数据，把 cate_name = "笔记本配件" 修改成 cate_name = "手机"
+*           int count = DBWorker.update("goods_cates", "cate_name", "笔记本配件", "手机");
+*           System.out.println(count); // 返回影响的行数
+*
+*     4）查询数据
+*           // 从 goods_cates 表中查询一行数据，id = 4
+*           List<String> list = DBWorker.query("goods_cates", "id = 4");
+*           for (String s : list)
+*           {
+*               System.out.println(s); // 取得字符串打印出来
+*           }
+*
+*     5）将数据表保存到文件中
+*           // 将一整份表都存进文件中，比如将 test 表保存进 Z:/test.txt
+*           DBWorker.putTableInFile("test", "test.txt");
+*
+* 上面几种是简单的演示，更多用法可以参考 API 文档
+*
+**********************************************************************************************************
+// 示例代码，可以直接运行，注意文件名可能需要改为 Examples.java
+
+package com.fish.EasyMysql;
+
+import java.util.List;
+
+public class Examples
+{
+    public static void main(String[] args) throws Exception
+    {
+        // 向 goods_cates 表插入一行数据，“8” 和 “手机” 是行内元素
+        //DBWorker.insert("goods_cates", new String[] {"8", "手机"});
+
+        // 从 goods_cates 表中删除一行数据，id = 8
+        //DBWorker.delete("goods_cates", "cate_name = \"手机\"");
+
+        // 从 goods_cates 表中修改一行数据，把 cate_name = "笔记本配件" 修改成 cate_name = "手机"
+        //int count = DBWorker.update("goods_cates", "cate_name", "笔记本配件", "手机");
+        //System.out.println(count);
+
+        // 从 goods_cates 表中查询一行数据，id = 4
+        /*List<String> list = DBWorker.query("goods_cates", "id = 4");
+        for (String s : list)
+        {
+            System.out.println(s);
+        }*/
+
+        // 将一整份表都存进文件中，比如将 test 表保存进 Z:/test.txt
+        //DBWorker.putTableInFile("test", "test.txt");
+    }
+}
+
+**********************************************************************************************************

@@ -1,0 +1,102 @@
+*******************************************************************************************************
+* Easy MySQL Database Operator v1.0
+* author：水不要鱼(FishGoddess)
+* development cycle：about 4 hours
+* development date：2017.11.19
+* version：1.0
+* why：I am tired of the operations in operating mySQL database... 
+*      So I just simplify them (JDBC mainly) into a tool, which is more easier. 
+* bugs feedback：As you know, I finished it by myself, and I certainly do some tests.
+*                But I can't make more cases to test it in just 4 hours.
+*                So, if you come across some bugs, don't be hesitated!
+*                give me a feedback or fixed it yourself!
+* E-mail：1149062639@qq.com
+*
+*******************************************************************************************************
+* using steps：
+* 1，import the EasyMysql library.
+*
+* 2，create a file named DB.properties, then put it in your root directory of your project.
+*    replace the original infomation with your infomation.
+*
+*     the original information of DB.properties: (without =)
+*     (you can copy these words to DB.properties.)
+===================================
+# ip of mysql database host
+databaseHost=127.0.0.1
+
+# which database you will use
+usingDatabase=workers
+
+# mysql user name
+user=root
+
+# mysql password
+password=1997
+===================================
+*     you can update this information by invoking DBManager.update().
+*
+* 3，now you can use the methods in class DBWorker
+*     1）insert data
+*           // insert data to goods_cates, "8" and "手机" is two elements in one row
+*           DBWorker.insert("goods_cates", new String[] {"8", "手机"});
+*
+*     2）delete data
+*           // delete the row in goods_cates, which cate_name is "手机"
+*           DBWorker.delete("goods_cates", "cate_name = \"手机\"");
+*
+*     3）update data
+*           // update one row in goods_cates, update cate_name from "笔记本配件" to "手机"
+*           int count = DBWorker.update("goods_cates", "cate_name", "笔记本配件", "手机");
+*           System.out.println(count); // retun the count of effected rows
+*
+*     4）query data
+*           // query one row in goods_cates, which id is 4
+*           List<String> list = DBWorker.query("goods_cates", "id = 4");
+*           for (String s : list)
+*           {
+*               System.out.println(s); // print the string obtained
+*           }
+*
+*     5）save a whole data table to disk
+*           // this will put the whole table in a file and store to disk.
+*           // for example, save test table as test.txt and store to Z:/
+*           DBWorker.putTableInFile("test", "Z:/test.txt");
+*
+* here is some common operation, if you need more API, get them in the javadoc!
+*
+*******************************************************************************************************
+// an example, it can run immediately, but you may rename your code file to Examples.java
+
+package com.fish.EasyMysql;
+
+import java.util.List;
+
+public class Examples
+{
+    public static void main(String[] args) throws Exception
+    {
+        // insert data to goods_cates, "8" and "手机" is two elements in one row
+        //DBWorker.insert("goods_cates", new String[] {"8", "手机"});
+
+        // delete the row in goods_cates, which cate_name is "手机"
+        //DBWorker.delete("goods_cates", "cate_name = \"手机\"");
+
+        // update one row in goods_cates, update cate_name from "笔记本配件" to "手机"
+        //int count = DBWorker.update("goods_cates", "cate_name", "笔记本配件", "手机");
+        //System.out.println(count);
+
+        // query one row in goods_cates, which id is 4
+        /*List<String> list = DBWorker.query("goods_cates", "id = 4");
+        for (String s : list)
+        {
+             System.out.println(s);
+        }*/
+
+        // this will put the whole table in a file and store to disk.
+        // for example, save test table as test.txt and store to Z:/
+        //DBWorker.putTableInFile("test", "Z:/test.txt");
+    }
+}
+
+*******************************************************************************************************
