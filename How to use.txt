@@ -76,6 +76,7 @@ public class Examples
 {
     public static void main(String[] args) throws Exception
     {
+        DBWorker.wakeUp();
         // insert data to goods_cates, "8" and "返字" is two elements in one row
         //DBWorker.insert("goods_cates", new String[] {"8", "返字"});
 

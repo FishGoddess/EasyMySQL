@@ -70,6 +70,7 @@ public class Examples
 {
     public static void main(String[] args) throws Exception
     {
+        DBWorker.wakeUp();
         // 向 goods_cates 表插入一行数据，“8” 和 “手机” 是行内元素
         //DBWorker.insert("goods_cates", new String[] {"8", "手机"});
 
