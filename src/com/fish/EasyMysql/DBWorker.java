@@ -17,7 +17,7 @@ public final class DBWorker
     /**
      * 获得数据库连接
      * */
-    private static Connection connection = DBManager.getConnection();
+    private static Connection connection = null;
 
     /**
      * 数据库预处理语句
@@ -75,6 +75,16 @@ public final class DBWorker
             System.out.println("读取文件失败！请检查文件是否可读！");
             return null;
         }
+    }
+
+    /**
+     * 叫醒工人，开始干活！
+     * hey, man, wake up!
+     * 连接到数据库 connect to database
+     * */
+    public static void wakeUp()
+    {
+        connection = DBManager.getConnection();
     }
 
     /**
