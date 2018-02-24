@@ -6,41 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d6c46e6-1f87-4b19-a378-baa98a8664b4" name="默认的" comment="默认的">
+    <list default="true" id="4d6c46e6-1f87-4b19-a378-baa98a8664b4" name="默认的" comment="第三次大更新！">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/EasyMysql.rar" afterPath="$PROJECT_DIR$/EasyMysql.rar" />
-      <change beforePath="$PROJECT_DIR$/How to use.txt" afterPath="$PROJECT_DIR$/How to use.txt" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-frame.html" afterPath="$PROJECT_DIR$/javadoc/allclasses-frame.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" afterPath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/DBManager.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/DBManager.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/DBWorker.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/DBWorker.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/class-use/DBManager.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/class-use/DBManager.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/class-use/DBWorker.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/class-use/DBWorker.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-frame.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-summary.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-tree.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-use.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-use.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/constant-values.html" afterPath="$PROJECT_DIR$/javadoc/constant-values.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/deprecated-list.html" afterPath="$PROJECT_DIR$/javadoc/deprecated-list.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/help-doc.html" afterPath="$PROJECT_DIR$/javadoc/help-doc.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-1.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-1.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-2.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-2.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-3.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-3.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-4.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-4.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-5.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-5.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-6.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-6.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-7.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-7.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-8.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-8.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index.html" afterPath="$PROJECT_DIR$/javadoc/index.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/overview-tree.html" afterPath="$PROJECT_DIR$/javadoc/overview-tree.html" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EasyMysql_jar/EasyMysql.jar" afterPath="$PROJECT_DIR$/out/artifacts/EasyMysql_jar/EasyMysql.jar" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasyMysql/com/fish/EasyMysql/DBManager$Config.class" afterPath="$PROJECT_DIR$/out/production/EasyMysql/com/fish/EasyMysql/DBManager$Config.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasyMysql/com/fish/EasyMysql/DBManager.class" afterPath="$PROJECT_DIR$/out/production/EasyMysql/com/fish/EasyMysql/DBManager.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasyMysql/com/fish/EasyMysql/DBWorker.class" afterPath="$PROJECT_DIR$/out/production/EasyMysql/com/fish/EasyMysql/DBWorker.class" />
-      <change beforePath="$PROJECT_DIR$/src/com/fish/EasyMysql/DBManager.java" afterPath="$PROJECT_DIR$/src/com/fish/EasyMysql/DBManager.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/fish/EasyMysql/DBWorker.java" afterPath="$PROJECT_DIR$/src/com/fish/EasyMysql/DBWorker.java" />
-      <change beforePath="$PROJECT_DIR$/使用说明.txt" afterPath="$PROJECT_DIR$/使用说明.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,6 +28,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="FishGoddess &lt;1149062639@qq.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -292,7 +264,7 @@
       <workItem from="1519446858910" duration="3000" />
       <workItem from="1519446921221" duration="1333000" />
       <workItem from="1519449540148" duration="2862000" />
-      <workItem from="1519453656199" duration="985000" />
+      <workItem from="1519453656199" duration="1201000" />
     </task>
     <task id="LOCAL-00001" summary="默认的">
       <created>1519447463277</created>
@@ -329,11 +301,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519448242985</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="第三次大更新！">
+      <created>1519454740831</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1519454740831</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32891000" />
+    <option name="totallyTimeSpent" value="33107000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -351,7 +330,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13697916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13697916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -381,7 +360,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="默认的" />
-    <option name="LAST_COMMIT_MESSAGE" value="默认的" />
+    <MESSAGE value="第三次大更新！" />
+    <option name="LAST_COMMIT_MESSAGE" value="第三次大更新！" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
