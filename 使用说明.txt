@@ -33,6 +33,7 @@ password=1997
 *
 * 3，开始使用库中的方法，通过 DBWorker 类来调用
 *     首先需要调用 DBWorker.wakeUp() 来连接数据库！
+*     使用完就要调用 DBWorker.sleep() 来释放资源，断开和数据库的链接
 *     1）插入数据
 *           // 向 goods_cates 表插入一行数据，“8” 和 “手机” 是行内元素
 *           DBWorker.insert("goods_cates", new String[] {"8", "手机"});
@@ -71,7 +72,8 @@ public class Examples
 {
     public static void main(String[] args) throws Exception
     {
-        // DBWorker.wakeUp(); // connect to database
+        //DBWorker.wakeUp(); // 连接数据库
+
         // 向 goods_cates 表插入一行数据，“8” 和 “手机” 是行内元素
         //DBWorker.insert("goods_cates", new String[] {"8", "手机"});
 
@@ -91,6 +93,8 @@ public class Examples
 
         // 将一整份表都存进文件中，比如将 test 表保存进 Z:/test.txt
         //DBWorker.putTableInFile("test", "test.txt");
+
+        //DBWorker.sleep(); // 释放资源，断开和数据库的链接
     }
 }
 

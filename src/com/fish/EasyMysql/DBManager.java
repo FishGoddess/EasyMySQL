@@ -11,12 +11,13 @@ import java.util.Properties;
 
 /**
  * 管理 MySql 数据库的连接信息
+ * some infomation about database's connection
  * @author Fish
  * */
 public final class DBManager
 {
     /**
-     * 数据库连接配置类
+     * 数据库连接配置类 config class
      * 配置文件
      * 一开始就把数据库连接配置文件加载到 config 文件中，提高效率
      * @author Fish
@@ -58,25 +59,29 @@ public final class DBManager
     }
 
     /**
-     * 标记是否已经初始化，除非调用 updateManager 方法，否则该变量不应该被改写
+     * 标记是否已经初始化，除非调用 update 方法，否则该变量不应该被改写
+     * mark the status of initation
      * */
     private static boolean isInited = false;
 
     /**
      * 配置文件所在路径
+     * where the config file hides?
      * */
     private static File filePath = null;
 
     /**
      * 不需要存在这个类的对象，只需要调用所需的方法即可
+     * single dog, single dog, single all the way! Which song you are reminded of?
      * */
     private DBManager()
     {}
 
     /**
      * 初始化数据库管理器
-     * @param path 指定配置文件的路径
-     * @return true 初始化成功， false 初始化失败
+     * init this guy
+     * @param path 指定配置文件的路径 the home of config file
+     * @return true 初始化成功 good job!， false 初始化失败 you failed!
      * */
     private static boolean init(File path)
     {
@@ -112,7 +117,10 @@ public final class DBManager
     }
 
     /**
-     * 更新数据库管理器的配置信息
+     * 根据指定文件更新数据库管理器的配置信息
+     * update connection depending on what config you give
+     * 在调用该方法之前，建议先调用 DBWorker.sleep() 释放资源！
+     * Maybe you should invoke DBWorker.sleep() before invoking this method!
      * @param path 指定配置文件的路径
      * @return true 更新成功， false 更新失败
      * */
@@ -126,7 +134,10 @@ public final class DBManager
 
     /**
      * 更新数据库管理器的配置信息
+     * update connection using the old config file
      * 按照第一次初始化的路径进行更新
+     * 在调用该方法之前，建议先调用 DBWorker.sleep() 释放资源！
+     * Maybe you should invoke DBWorker.sleep() before invoking this method!
      * @return true 更新成功， false 更新失败
      */
     public static boolean update()
@@ -137,8 +148,9 @@ public final class DBManager
     }
 
     /**
-     * 获取数据库连接
-     * @return 返回得到的数据库连接
+     * 获取数据库连接, 不推荐使用
+     * get a connection of database, don't advise!
+     * @return 返回得到的数据库连接 you get a connection
      * */
     public static Connection getConnection()
     {

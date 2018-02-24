@@ -38,6 +38,7 @@ password=1997
 *
 * 3: now you can use the methods in class DBWorker
 *     At first, you should invoke DBWorker.wakeUp() to connect to database!
+*     After you use, you should release resources by invoking DBWorker.sleep()!
 *     1: insert data
 *           // insert data to goods_cates, "8" and "..." is two elements in one row
 *           DBWorker.insert("goods_cates", new String[] {"8", "..."});
@@ -77,7 +78,8 @@ public class Examples
 {
     public static void main(String[] args) throws Exception
     {
-        // DBWorker.wakeUp(); // connect to database
+        //DBWorker.wakeUp(); // connect to database
+
         // insert data to goods_cates, "8" and "..." is two elements in one row
         //DBWorker.insert("goods_cates", new String[] {"8", "..."});
 
@@ -98,6 +100,8 @@ public class Examples
         // this will put the whole table in a file and store to disk.
         // for example, save test table as test.txt and store to Z:/
         //DBWorker.putTableInFile("test", "Z:/test.txt");
+
+        //DBWorker.sleep(); // release resources
     }
 }
 

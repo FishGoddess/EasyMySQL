@@ -8,6 +8,39 @@
   <component name="ChangeListManager">
     <list default="true" id="4d6c46e6-1f87-4b19-a378-baa98a8664b4" name="默认的" comment="默认的">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/EasyMysql.rar" afterPath="$PROJECT_DIR$/EasyMysql.rar" />
+      <change beforePath="$PROJECT_DIR$/How to use.txt" afterPath="$PROJECT_DIR$/How to use.txt" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-frame.html" afterPath="$PROJECT_DIR$/javadoc/allclasses-frame.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" afterPath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/DBManager.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/DBManager.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/DBWorker.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/DBWorker.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/class-use/DBManager.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/class-use/DBManager.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/class-use/DBWorker.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/class-use/DBWorker.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-frame.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-summary.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-tree.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-use.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-use.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/constant-values.html" afterPath="$PROJECT_DIR$/javadoc/constant-values.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/deprecated-list.html" afterPath="$PROJECT_DIR$/javadoc/deprecated-list.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/help-doc.html" afterPath="$PROJECT_DIR$/javadoc/help-doc.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-1.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-1.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-2.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-2.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-3.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-3.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-4.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-4.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-5.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-5.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-6.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-6.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-7.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-7.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-8.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-8.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index.html" afterPath="$PROJECT_DIR$/javadoc/index.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/overview-tree.html" afterPath="$PROJECT_DIR$/javadoc/overview-tree.html" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EasyMysql_jar/EasyMysql.jar" afterPath="$PROJECT_DIR$/out/artifacts/EasyMysql_jar/EasyMysql.jar" />
+      <change beforePath="$PROJECT_DIR$/out/production/EasyMysql/com/fish/EasyMysql/DBManager$Config.class" afterPath="$PROJECT_DIR$/out/production/EasyMysql/com/fish/EasyMysql/DBManager$Config.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/EasyMysql/com/fish/EasyMysql/DBManager.class" afterPath="$PROJECT_DIR$/out/production/EasyMysql/com/fish/EasyMysql/DBManager.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/EasyMysql/com/fish/EasyMysql/DBWorker.class" afterPath="$PROJECT_DIR$/out/production/EasyMysql/com/fish/EasyMysql/DBWorker.class" />
+      <change beforePath="$PROJECT_DIR$/src/com/fish/EasyMysql/DBManager.java" afterPath="$PROJECT_DIR$/src/com/fish/EasyMysql/DBManager.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/fish/EasyMysql/DBWorker.java" afterPath="$PROJECT_DIR$/src/com/fish/EasyMysql/DBWorker.java" />
+      <change beforePath="$PROJECT_DIR$/使用说明.txt" afterPath="$PROJECT_DIR$/使用说明.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,13 +75,14 @@
         <option value="$PROJECT_DIR$/src/com/fish/EasyMysql/DBUtils.java" />
         <option value="$PROJECT_DIR$/src/com/fish/EasyMysql/Column.java" />
         <option value="$PROJECT_DIR$/works.in" />
-        <option value="$PROJECT_DIR$/src/com/fish/EasyMysql/DBManager.java" />
         <option value="$PROJECT_DIR$/HowToUse.txt" />
         <option value="$PROJECT_DIR$/src/com/fish/EasyMysql/Main.java" />
         <option value="$PROJECT_DIR$/src/com/fish/EasyMysql/Examples.java" />
+        <option value="$PROJECT_DIR$/src/com/fish/EasyMysql/DBManager.java" />
         <option value="$PROJECT_DIR$/src/com/fish/EasyMysql/DBWorker.java" />
-        <option value="$PROJECT_DIR$/使用说明.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/How to use.txt" />
+        <option value="$PROJECT_DIR$/使用说明.txt" />
       </list>
     </option>
   </component>
@@ -79,6 +113,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -89,7 +124,30 @@
             <path>
               <item name="EasyMysql" type="b2602c69:ProjectViewProjectNode" />
               <item name="EasyMysql" type="462c0819:PsiDirectoryNode" />
+              <item name="javadoc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyMysql" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyMysql" type="462c0819:PsiDirectoryNode" />
               <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyMysql" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyMysql" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyMysql" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyMysql" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyMysql" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyMysql" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyMysql_jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EasyMysql" type="b2602c69:ProjectViewProjectNode" />
@@ -106,10 +164,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -120,149 +177,6 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/EasyMysql.rar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/How to use.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/javadoc/allclasses-frame.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/javadoc/allclasses-noframe.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/javadoc/com/fish/EasyMysql/DBManager.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/javadoc/com/fish/EasyMysql/DBWorker.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/javadoc/com/fish/EasyMysql/class-use/DBManager.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/javadoc/com/fish/EasyMysql/class-use/DBWorker.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-frame.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-summary.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-tree.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-use.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/javadoc/constant-values.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/javadoc/deprecated-list.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/javadoc/help-doc.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/javadoc/index-files/index-1.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/javadoc/index-files/index-2.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/javadoc/index-files/index-3.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/javadoc/index-files/index-4.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/javadoc/index-files/index-5.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/javadoc/index-files/index-6.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/javadoc/index-files/index-7.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/javadoc/index-files/index-8.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/javadoc/index.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/javadoc/overview-tree.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/javadoc/package-list</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/javadoc/script.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/javadoc/stylesheet.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/EasyMysql_jar/EasyMysql.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/EasyMysql/com/fish/EasyMysql/DBWorker.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com/fish/EasyMysql/DBManager.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com/fish/EasyMysql/DBWorker.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/使用说明.txt</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -376,7 +290,9 @@
       <workItem from="1511099598818" duration="149000" />
       <workItem from="1519367493850" duration="912000" />
       <workItem from="1519446858910" duration="3000" />
-      <workItem from="1519446921221" duration="1317000" />
+      <workItem from="1519446921221" duration="1333000" />
+      <workItem from="1519449540148" duration="2862000" />
+      <workItem from="1519453656199" duration="985000" />
     </task>
     <task id="LOCAL-00001" summary="默认的">
       <created>1519447463277</created>
@@ -406,17 +322,25 @@
       <option name="project" value="LOCAL" />
       <updated>1519448167097</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="默认的">
+      <created>1519448242985</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1519448242985</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29028000" />
+    <option name="totallyTimeSpent" value="32891000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -427,8 +351,9 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13697916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13697916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -440,13 +365,11 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="设计师" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="150" y="296" width="838" height="542" />
       <window_info id="控制板" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -472,7 +395,6 @@
         <state relative-caret-position="1917">
           <caret line="163" column="5" lean-forward="false" selection-start-line="163" selection-start-column="5" selection-end-line="163" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="class#Config#0;class#DBManager#0" expanded="false" />
             <element signature="method#init#0;class#DBManager#0" expanded="false" />
             <element signature="method#update#0;class#DBManager#0" expanded="false" />
@@ -488,12 +410,12 @@
           <caret line="257" column="31" lean-forward="true" selection-start-line="257" selection-start-column="31" selection-end-line="257" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1750#1751#0" expanded="true" />
-            <element signature="e#1804#1805#0" expanded="true" />
-            <element signature="e#1966#1967#0" expanded="true" />
-            <element signature="e#2008#2009#0" expanded="true" />
-            <element signature="e#7662#7663#0" expanded="true" />
-            <element signature="e#7706#7707#0" expanded="true" />
+            <element signature="e#1984#1985#0" expanded="true" />
+            <element signature="e#2038#2039#0" expanded="true" />
+            <element signature="e#2984#2985#0" expanded="true" />
+            <element signature="e#3033#3034#0" expanded="true" />
+            <element signature="e#9465#9466#0" expanded="true" />
+            <element signature="e#9509#9510#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -503,7 +425,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="class#Config#0;class#DBManager#0" expanded="false" />
             <element signature="method#init#0;class#DBManager#0" expanded="false" />
             <element signature="method#update#0;class#DBManager#0" expanded="false" />
@@ -569,10 +490,9 @@
     <entry file="file://$PROJECT_DIR$/src/com/fish/EasyMysql/Examples.java" />
     <entry file="file://$PROJECT_DIR$/src/com/fish/EasyMysql/DBManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="758">
-          <caret line="163" column="5" lean-forward="false" selection-start-line="163" selection-start-column="5" selection-end-line="163" selection-end-column="5" />
+        <state relative-caret-position="1971">
+          <caret line="152" column="36" lean-forward="false" selection-start-line="152" selection-start-column="36" selection-end-line="152" selection-end-column="36" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="class#Config#0;class#DBManager#0" expanded="false" />
             <element signature="method#init#0;class#DBManager#0" expanded="false" />
             <element signature="method#update#0;class#DBManager#0" expanded="false" />
@@ -584,32 +504,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fish/EasyMysql/DBWorker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1350">
-          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state relative-caret-position="3753">
+          <caret line="139" column="58" lean-forward="false" selection-start-line="139" selection-start-column="58" selection-end-line="139" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1750#1751#0" expanded="true" />
-            <element signature="e#1804#1805#0" expanded="true" />
-            <element signature="e#1966#1967#0" expanded="true" />
-            <element signature="e#2008#2009#0" expanded="true" />
-            <element signature="e#7662#7663#0" expanded="true" />
-            <element signature="e#7706#7707#0" expanded="true" />
+            <element signature="e#1984#1985#0" expanded="true" />
+            <element signature="e#2038#2039#0" expanded="true" />
+            <element signature="e#2984#2985#0" expanded="true" />
+            <element signature="e#3033#3034#0" expanded="true" />
+            <element signature="e#9465#9466#0" expanded="true" />
+            <element signature="e#9509#9510#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/使用说明.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="540">
+            <caret line="20" column="52" lean-forward="false" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/How to use.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="890">
-          <caret line="87" column="79" lean-forward="false" selection-start-line="87" selection-start-column="79" selection-end-line="87" selection-end-column="79" />
+        <state relative-caret-position="1430">
+          <caret line="103" column="10" lean-forward="false" selection-start-line="103" selection-start-column="10" selection-end-line="103" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/使用说明.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="75" column="8" lean-forward="false" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
           <folding />
         </state>
       </provider>
