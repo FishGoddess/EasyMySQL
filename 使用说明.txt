@@ -32,6 +32,7 @@ password=1997
 *     当你修改了这个文件的内容时，可以通过调用 DBManager 类中的静态方法 update() 来更新数据
 *
 * 3，开始使用库中的方法，通过 DBWorker 类来调用
+*     首先需要调用 DBWorker.wakeUp() 来连接数据库！
 *     1）插入数据
 *           // 向 goods_cates 表插入一行数据，“8” 和 “手机” 是行内元素
 *           DBWorker.insert("goods_cates", new String[] {"8", "手机"});
@@ -70,7 +71,7 @@ public class Examples
 {
     public static void main(String[] args) throws Exception
     {
-        DBWorker.wakeUp();
+        // DBWorker.wakeUp(); // connect to database
         // 向 goods_cates 表插入一行数据，“8” 和 “手机” 是行内元素
         //DBWorker.insert("goods_cates", new String[] {"8", "手机"});
 
