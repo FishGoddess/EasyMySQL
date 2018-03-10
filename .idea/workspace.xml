@@ -8,6 +8,34 @@
   <component name="ChangeListManager">
     <list default="true" id="4d6c46e6-1f87-4b19-a378-baa98a8664b4" name="默认的" comment="第三次大更新！">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/DB.properties" afterPath="$PROJECT_DIR$/DB.properties" />
+      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-frame.html" afterPath="$PROJECT_DIR$/javadoc/allclasses-frame.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" afterPath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/DBManager.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/DBManager.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/DBWorker.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/DBWorker.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/class-use/DBManager.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/class-use/DBManager.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/class-use/DBWorker.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/class-use/DBWorker.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-frame.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-summary.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-tree.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-use.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-use.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/constant-values.html" afterPath="$PROJECT_DIR$/javadoc/constant-values.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/deprecated-list.html" afterPath="$PROJECT_DIR$/javadoc/deprecated-list.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/help-doc.html" afterPath="$PROJECT_DIR$/javadoc/help-doc.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-1.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-1.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-2.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-2.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-3.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-3.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-4.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-4.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-5.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-5.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-6.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-6.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-7.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-7.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-8.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-8.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-9.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-9.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index.html" afterPath="$PROJECT_DIR$/javadoc/index.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/overview-tree.html" afterPath="$PROJECT_DIR$/javadoc/overview-tree.html" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EasyMysql_jar/EasyMysql.jar" afterPath="$PROJECT_DIR$/out/artifacts/EasyMysql_jar/EasyMysql.jar" />
+      <change beforePath="$PROJECT_DIR$/out/production/EasyMysql/com/fish/EasyMysql/DBWorker.class" afterPath="$PROJECT_DIR$/out/production/EasyMysql/com/fish/EasyMysql/DBWorker.class" />
+      <change beforePath="$PROJECT_DIR$/src/com/fish/EasyMysql/DBWorker.java" afterPath="$PROJECT_DIR$/src/com/fish/EasyMysql/DBWorker.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +46,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="DBWorker.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/fish/EasyMysql/DBWorker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="785">
+              <caret line="414" column="5" lean-forward="false" selection-start-line="414" selection-start-column="5" selection-end-line="414" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2032#2033#0" expanded="true" />
+                <element signature="e#2086#2087#0" expanded="true" />
+                <element signature="e#3032#3033#0" expanded="true" />
+                <element signature="e#3081#3082#0" expanded="true" />
+                <element signature="method#query#0;class#DBWorker#0" expanded="false" />
+                <element signature="e#9513#9514#0" expanded="true" />
+                <element signature="e#9559#9560#0" expanded="true" />
+                <element signature="method#queryMap#0;class#DBWorker#0" expanded="false" />
+                <element signature="e#11557#11558#0" expanded="true" />
+                <element signature="e#11606#11607#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,7 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DB.properties" />
         <option value="$PROJECT_DIR$/src/com/fish/EasyMysql/DBUtils.java" />
         <option value="$PROJECT_DIR$/src/com/fish/EasyMysql/Column.java" />
         <option value="$PROJECT_DIR$/works.in" />
@@ -51,10 +101,12 @@
         <option value="$PROJECT_DIR$/src/com/fish/EasyMysql/Main.java" />
         <option value="$PROJECT_DIR$/src/com/fish/EasyMysql/Examples.java" />
         <option value="$PROJECT_DIR$/src/com/fish/EasyMysql/DBManager.java" />
-        <option value="$PROJECT_DIR$/src/com/fish/EasyMysql/DBWorker.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/How to use.txt" />
         <option value="$PROJECT_DIR$/使用说明.txt" />
+        <option value="$PROJECT_DIR$/DB.properties" />
+        <option value="$PROJECT_DIR$/src/com/fish/EasyMysql/DBWorker.java" />
+        <option value="$PROJECT_DIR$/src/test/Test.java" />
       </list>
     </option>
   </component>
@@ -85,41 +137,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="EasyMysql" type="b2602c69:ProjectViewProjectNode" />
               <item name="EasyMysql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EasyMysql" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyMysql" type="462c0819:PsiDirectoryNode" />
-              <item name="javadoc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EasyMysql" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyMysql" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EasyMysql" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyMysql" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EasyMysql" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyMysql" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EasyMysql" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyMysql" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="EasyMysql_jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EasyMysql" type="b2602c69:ProjectViewProjectNode" />
@@ -138,7 +162,7 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,7 +288,8 @@
       <workItem from="1519446858910" duration="3000" />
       <workItem from="1519446921221" duration="1333000" />
       <workItem from="1519449540148" duration="2862000" />
-      <workItem from="1519453656199" duration="1229000" />
+      <workItem from="1519453656199" duration="1376000" />
+      <workItem from="1520668437534" duration="1540000" />
     </task>
     <task id="LOCAL-00001" summary="默认的">
       <created>1519447463277</created>
@@ -315,14 +340,22 @@
       <option name="project" value="LOCAL" />
       <updated>1519454877462</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="第三次大更新！">
+      <created>1519454890359</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1519454890359</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33135000" />
+    <option name="totallyTimeSpent" value="34822000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -397,12 +430,16 @@
           <caret line="257" column="31" lean-forward="true" selection-start-line="257" selection-start-column="31" selection-end-line="257" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1984#1985#0" expanded="true" />
-            <element signature="e#2038#2039#0" expanded="true" />
-            <element signature="e#2984#2985#0" expanded="true" />
-            <element signature="e#3033#3034#0" expanded="true" />
-            <element signature="e#9465#9466#0" expanded="true" />
-            <element signature="e#9509#9510#0" expanded="true" />
+            <element signature="e#2032#2033#0" expanded="true" />
+            <element signature="e#2086#2087#0" expanded="true" />
+            <element signature="e#3032#3033#0" expanded="true" />
+            <element signature="e#3081#3082#0" expanded="true" />
+            <element signature="method#query#0;class#DBWorker#0" expanded="false" />
+            <element signature="e#9513#9514#0" expanded="true" />
+            <element signature="e#9559#9560#0" expanded="true" />
+            <element signature="method#queryMap#0;class#DBWorker#0" expanded="false" />
+            <element signature="e#11557#11558#0" expanded="true" />
+            <element signature="e#11606#11607#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -467,13 +504,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/libs/test.txt" />
     <entry file="file://$PROJECT_DIR$/test.txt" />
-    <entry file="file://$PROJECT_DIR$/DB.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fish/EasyMysql/Examples.java" />
     <entry file="file://$PROJECT_DIR$/src/com/fish/EasyMysql/DBManager.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -485,22 +515,6 @@
             <element signature="method#update#0;class#DBManager#0" expanded="false" />
             <element signature="method#update#1;class#DBManager#0" expanded="false" />
             <element signature="method#getConnection#0;class#DBManager#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fish/EasyMysql/DBWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3753">
-          <caret line="139" column="58" lean-forward="false" selection-start-line="139" selection-start-column="58" selection-end-line="139" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1984#1985#0" expanded="true" />
-            <element signature="e#2038#2039#0" expanded="true" />
-            <element signature="e#2984#2985#0" expanded="true" />
-            <element signature="e#3033#3034#0" expanded="true" />
-            <element signature="e#9465#9466#0" expanded="true" />
-            <element signature="e#9509#9510#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -520,15 +534,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1430">
           <caret line="103" column="10" lean-forward="false" selection-start-line="103" selection-start-column="10" selection-end-line="103" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/使用说明.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="75" column="8" lean-forward="false" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+        <state relative-caret-position="513">
+          <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="59" lean-forward="false" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fish/EasyMysql/DBWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="785">
+          <caret line="414" column="5" lean-forward="false" selection-start-line="414" selection-start-column="5" selection-end-line="414" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2032#2033#0" expanded="true" />
+            <element signature="e#2086#2087#0" expanded="true" />
+            <element signature="e#3032#3033#0" expanded="true" />
+            <element signature="e#3081#3082#0" expanded="true" />
+            <element signature="method#query#0;class#DBWorker#0" expanded="false" />
+            <element signature="e#9513#9514#0" expanded="true" />
+            <element signature="e#9559#9560#0" expanded="true" />
+            <element signature="method#queryMap#0;class#DBWorker#0" expanded="false" />
+            <element signature="e#11557#11558#0" expanded="true" />
+            <element signature="e#11606#11607#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

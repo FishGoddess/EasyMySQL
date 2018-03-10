@@ -3,7 +3,9 @@ package com.fish.EasyMysql;
 import java.io.*;
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * 一些数据库常用操作函数
@@ -340,7 +342,76 @@ public final class DBWorker
      */
     public static List<String> query(String tableName)
     {
-        return query(tableName, "1");
+        return query(tableName, "ALL");
+    }
+
+    /**
+     * 向数据库查询数据
+     * query some data
+     *
+     * @param tableName 要查询内容的表名 table name
+     * @param selection 要查询的内容的筛选条件
+     *                  比如，你要查询 id = 1 的元素，在这个地方就传入 "id = 1"；
+     *                  也就是说：列名 = 列内容;
+     *                  如果列内容是字符串，则需要使用 (\") 把字符串包住，比如 name = \"选择器\";
+     *                  这里需要注意，如果传入 "1" 或 "ALL"，就会查询整份表，把整份表包装到字符串中
+     *                  query data depending on your selection
+     * @return 返回查询到的结果，HashMap 封装，可通过键值获取到具体的值，键值就是表的列名(the key is the column of this table)
+     */
+    public static List<Map> queryMap(String tableName, String selection)
+    {
+        List<Map> result = new ArrayList<>();
+        StringBuilder sql = new StringBuilder("SELECT * FROM ");
+        sql.append(tableName);
+
+        if ("ALL".equalsIgnoreCase(selection))
+        {
+            selection = "1";
+        }
+
+        sql.append(" WHERE " + selection + ";");
+
+        try
+        {
+            // 计算列数
+            ps = connection.prepareStatement("DESC " + tableName);
+            int columns = ps.executeUpdate();
+
+            ps = connection.prepareStatement(sql.toString());
+
+            Map<String, Object> map = null;
+            ResultSet rs = ps.executeQuery();
+            ResultSetMetaData rsmd = rs.getMetaData();
+            while (rs.next())
+            {
+                map = new HashMap<>();
+                for (int i = 1; i <= columns; i++)
+                {
+                    map.put(rsmd.getColumnName(i), rs.getObject(i));
+                }
+
+                result.add(map);
+            }
+
+            return result;
+        }
+        catch (SQLException e)
+        {
+            System.out.println("查询失败！请检查传入的选择器是否有效！");
+            return null;
+        }
+    }
+
+    /**
+     * 向数据库查询数据表
+     * query some data
+     *
+     * @param tableName 要查询内容的表名 table name
+     * @return 返回查询到的结果，HashMap 封装，可通过键值获取到具体的值，键值就是表的列名(the key is the column of this table)
+     */
+    public static List<Map> queryMap(String tableName)
+    {
+        return queryMap(tableName, "ALL");
     }
 
     /**
