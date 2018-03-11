@@ -17,12 +17,22 @@ if you use DBManager.update(File) to update infomaton of database, you will get 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ***update*** !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+### *2018-3-11:*<br/>
+修改了查询的方法名，使得意思更加通熟易懂。<br/>
+修正部分代码质量<br/>
+
+update some function's name, such as query...<br/>
+fix some codes<br/>
+
 ### *2018-3-10:*<br/>
 加入了两个新的查询方法，返回 List<Map> 类型，之前的返回值为 List<String> ，如果要操作返回的数据是比较麻烦的，而在 Map 中操作数据只需要键值即可，在这个返回的 Map 中，key值就是数据库中的列名。<br/>
+  
 add two functions for querying, it returns List<Map> type, so you can get the exact data you want easily, because all the things you need is Key(the column of table is the key), and this is complex in the old version!<br/>
 
 ### *2018-2-24:*<br/> 
 加入了英文注释<br/>
+
 add some English introduction<br/>     
+
 
 修改了部分功能：比如 work 可以手动指定文件，加入了 wakeUp 和 sleep 进行资源的管理。<br/>
