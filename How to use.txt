@@ -54,8 +54,9 @@ password=1997
 *
 *     4: query data
 *           // query one row in goods_cates, which id is 4
-*           List<String> list = DBWorker.query("goods_cates", "id = 4");
-*           for (String s : list)
+*           List<String> list = DBWorker.queryStrings("goods_cates", "id = 4");
+*           //List<Map> list = DBWorker.queryMaps("goods_cates", "id = 4");
+*           for (String s : list) // for (Map m : list)
 *           {
 *               System.out.println(s); // print the string obtained
 *           }
@@ -91,8 +92,9 @@ public class Examples
         //System.out.println(count);
 
         // query one row in goods_cates, which id is 4
-        /*List<String> list = DBWorker.query("goods_cates", "id = 4");
-        for (String s : list)
+        /*List<String> list = DBWorker.queryStrings("goods_cates", "id = 4");
+        //List<Map> list = DBWorker.queryMaps("goods_cates", "id = 4");
+        for (String s : list) // for (Map m : list)
         {
              System.out.println(s);
         }*/

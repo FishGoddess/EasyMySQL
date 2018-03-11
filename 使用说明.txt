@@ -49,8 +49,9 @@ password=1997
 *
 *     4）查询数据
 *           // 从 goods_cates 表中查询一行数据，id = 4
-*           List<String> list = DBWorker.query("goods_cates", "id = 4");
-*           for (String s : list)
+*           List<String> list = DBWorker.queryStrings("goods_cates", "id = 4");
+*           //List<Map> list = DBWorker.queryMaps("goods_cates", "id = 4");
+*           for (String s : list) // for (Map m : list)
 *           {
 *               System.out.println(s); // 取得字符串打印出来
 *           }
@@ -86,7 +87,8 @@ public class Examples
 
         // 从 goods_cates 表中查询一行数据，id = 4
         /*List<String> list = DBWorker.query("goods_cates", "id = 4");
-        for (String s : list)
+        //List<Map> list = DBWorker.queryMaps("goods_cates", "id = 4");
+        for (String s : list) // for (Map m : list)
         {
             System.out.println(s);
         }*/

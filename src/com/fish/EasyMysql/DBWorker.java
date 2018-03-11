@@ -127,6 +127,8 @@ public final class DBWorker
      * exeute some complex works
      * 命令语句由 sqlFile 文件传入
      * sql will read from file automatically
+     * @param sqlFile 要被执行的 sql 语句集合文件，包含一堆数据库执行语句
+     *                a file containing many sql orders that you want it to do
      * @return true 执行成功，false 执行失败
      * */
     public static boolean work(File sqlFile)
@@ -285,7 +287,7 @@ public final class DBWorker
      *                  query data depending on your selection
      * @return 返回查询到的结果，字符串封装
      */
-    public static List<String> query(String tableName, String selection)
+    public static List<String> queryStrings(String tableName, String selection)
     {
         List<String> result = new ArrayList<>();
         StringBuilder sql = new StringBuilder("SELECT * FROM ");
@@ -340,9 +342,9 @@ public final class DBWorker
      * @param tableName 要查询内容的表名 table name
      * @return 返回查询到的结果，字符串封装
      */
-    public static List<String> query(String tableName)
+    public static List<String> queryStrings(String tableName)
     {
-        return query(tableName, "ALL");
+        return queryStrings(tableName, "ALL");
     }
 
     /**
@@ -358,7 +360,7 @@ public final class DBWorker
      *                  query data depending on your selection
      * @return 返回查询到的结果，HashMap 封装，可通过键值获取到具体的值，键值就是表的列名(the key is the column of this table)
      */
-    public static List<Map> queryMap(String tableName, String selection)
+    public static List<Map> queryMaps(String tableName, String selection)
     {
         List<Map> result = new ArrayList<>();
         StringBuilder sql = new StringBuilder("SELECT * FROM ");
@@ -409,9 +411,9 @@ public final class DBWorker
      * @param tableName 要查询内容的表名 table name
      * @return 返回查询到的结果，HashMap 封装，可通过键值获取到具体的值，键值就是表的列名(the key is the column of this table)
      */
-    public static List<Map> queryMap(String tableName)
+    public static List<Map> queryMaps(String tableName)
     {
-        return queryMap(tableName, "ALL");
+        return queryMaps(tableName, "ALL");
     }
 
     /**
@@ -428,7 +430,7 @@ public final class DBWorker
         {
             BufferedWriter bw = new BufferedWriter(new FileWriter(new File(filePath)));
 
-            List<String> list = query(tableName);
+            List<String> list = queryStrings(tableName);
             for (String s : list)
             {
                 bw.write(s);
