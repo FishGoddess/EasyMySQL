@@ -10,6 +10,26 @@ the final version is in out/artifacts/EasyMysql_jar
 **或者你也可以使用 EasyMysql.rar，里面包含了框架**<br/>
 or you can download EasyMysql.rar, which is jars
 
+### 下面演示了结合 AutoMySQL 小框架的查询操作：
+#### if you use AutoMySQL and this jar:
+    // get information from file
+    DBManager.update(new File("testFile/config/DB.properties"));
+
+    // connect to database
+    DBWorker.wakeUp();
+
+    // query data
+    List<Map> books = DBWorker.queryMaps("book");
+
+    for (Map<String, Object> map : books)
+    {
+        // read data from map and box it an object
+        Book book = MySQL.getBeanByMap(map, Book.class);
+        System.out.println(book);
+    }
+
+    // release resources
+    DBWorker.sleep();
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ***bug*** !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
