@@ -2,11 +2,34 @@
 ## 一个简化的 mysql 数据库操作库。。。                                                                                     
 ## A simplified toolkit for mysql...
 
+
 **最终可用版本在 out/artifacts/EasyMysql_jar 中**<br/>
 the final version is in out/artifacts/EasyMysql_jar
 
+
 **或者你也可以使用 EasyMysql.rar，里面包含了框架**<br/>
 or you can download EasyMysql.rar, which is jars
+
+### 下面演示了结合 AutoMySQL 小框架的查询操作：
+#### if you use AutoMySQL and this jar:
+    // get information from file
+    DBManager.update(new File("testFile/config/DB.properties"));
+
+    // connect to database
+    DBWorker.wakeUp();
+
+    // query data
+    List<Map> books = DBWorker.queryMaps("book");
+
+    for (Map<String, Object> map : books)
+    {
+        // read data from map and box it an object
+        Book book = MySQL.getBeanByMap(map, Book.class);
+        System.out.println(book);
+    }
+
+    // release resources
+    DBWorker.sleep();
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ***bug*** !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -15,14 +38,28 @@ or you can download EasyMysql.rar, which is jars
 
 if you use DBManager.update(File) to update infomaton of database, you will get a failed infomation. The reason is the connection in DBWorker is static, so you cant't change it after "new" it... Don't wrong, this bug has been fixed!<br/>
 
+
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ***update*** !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+### *2018-3-11:*<br/>
+修改了查询的方法名，使得意思更加通熟易懂。<br/>
+修正部分代码质量<br/>
+
+update some function's name, such as query...<br/>
+fix some codes<br/>
+
 
 ### *2018-3-10:*<br/>
 加入了两个新的查询方法，返回 List<Map> 类型，之前的返回值为 List<String> ，如果要操作返回的数据是比较麻烦的，而在 Map 中操作数据只需要键值即可，在这个返回的 Map 中，key值就是数据库中的列名。<br/>
+  
 add two functions for querying, it returns List<Map> type, so you can get the exact data you want easily, because all the things you need is Key(the column of table is the key), and this is complex in the old version!<br/>
+
 
 ### *2018-2-24:*<br/> 
 加入了英文注释<br/>
+
 add some English introduction<br/>     
+
 
 修改了部分功能：比如 work 可以手动指定文件，加入了 wakeUp 和 sleep 进行资源的管理。<br/>
