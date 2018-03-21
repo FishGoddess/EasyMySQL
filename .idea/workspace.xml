@@ -7,8 +7,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d6c46e6-1f87-4b19-a378-baa98a8664b4" name="默认的" comment="第五次更新：修正了部分方法名">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_42_bin.xml" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_42_bin.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/DB.properties" afterPath="$PROJECT_DIR$/DB.properties" />
+      <change beforePath="$PROJECT_DIR$/EasyMysql.iml" afterPath="$PROJECT_DIR$/EasyMysql.iml" />
+      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-frame.html" afterPath="$PROJECT_DIR$/javadoc/allclasses-frame.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" afterPath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/DBManager.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/DBManager.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/DBWorker.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/DBWorker.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/class-use/DBManager.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/class-use/DBManager.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/class-use/DBWorker.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/class-use/DBWorker.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-frame.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-summary.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-tree.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-use.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-use.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/constant-values.html" afterPath="$PROJECT_DIR$/javadoc/constant-values.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/deprecated-list.html" afterPath="$PROJECT_DIR$/javadoc/deprecated-list.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/help-doc.html" afterPath="$PROJECT_DIR$/javadoc/help-doc.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-1.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-1.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-2.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-2.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-3.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-3.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-4.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-4.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-5.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-5.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-6.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-6.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-7.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-7.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-8.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-8.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-9.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-9.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index.html" afterPath="$PROJECT_DIR$/javadoc/index.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/overview-tree.html" afterPath="$PROJECT_DIR$/javadoc/overview-tree.html" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EasyMysql_jar/EasyMysql.jar" afterPath="$PROJECT_DIR$/out/artifacts/EasyMysql_jar/EasyMysql.jar" />
+      <change beforePath="$PROJECT_DIR$/out/production/EasyMysql/com/fish/EasyMysql/DBManager$Config.class" afterPath="$PROJECT_DIR$/out/production/EasyMysql/com/fish/EasyMysql/DBManager$Config.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/EasyMysql/com/fish/EasyMysql/DBManager.class" afterPath="$PROJECT_DIR$/out/production/EasyMysql/com/fish/EasyMysql/DBManager.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/EasyMysql/com/fish/EasyMysql/DBWorker.class" afterPath="$PROJECT_DIR$/out/production/EasyMysql/com/fish/EasyMysql/DBWorker.class" />
+      <change beforePath="$PROJECT_DIR$/src/com/fish/EasyMysql/DBManager.java" afterPath="$PROJECT_DIR$/src/com/fish/EasyMysql/DBManager.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/fish/EasyMysql/DBWorker.java" afterPath="$PROJECT_DIR$/src/com/fish/EasyMysql/DBWorker.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,16 +52,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DBManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DBWorker.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/fish/EasyMysql/DBWorker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6588">
+              <caret line="479" column="56" lean-forward="false" selection-start-line="479" selection-start-column="56" selection-end-line="479" selection-end-column="56" />
+              <folding>
+                <element signature="method#getSqlOrder#0;class#DBWorker#0" expanded="false" />
+                <element signature="method#sleep#0;class#DBWorker#0" expanded="false" />
+                <element signature="method#commit#0;class#DBWorker#0" expanded="false" />
+                <element signature="method#work#1;class#DBWorker#0" expanded="false" />
+                <element signature="method#workQuery#0;class#DBWorker#0" expanded="false" />
+                <element signature="method#delete#0;class#DBWorker#0" expanded="false" />
+                <element signature="method#queryStrings#0;class#DBWorker#0" expanded="false" />
+                <element signature="method#queryMaps#0;class#DBWorker#0" expanded="false" />
+                <element signature="method#query#0;class#DBWorker#0" expanded="false" />
+                <element signature="method#putTableInFile#0;class#DBWorker#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/fish/EasyMysql/DBManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="152" column="36" lean-forward="false" selection-start-line="152" selection-start-column="36" selection-end-line="152" selection-end-column="36" />
+            <state relative-caret-position="380">
+              <caret line="230" column="6" lean-forward="false" selection-start-line="230" selection-start-column="6" selection-end-line="230" selection-end-column="6" />
               <folding>
                 <element signature="class#Config#0;class#DBManager#0" expanded="false" />
                 <element signature="method#init#0;class#DBManager#0" expanded="false" />
                 <element signature="method#update#0;class#DBManager#0" expanded="false" />
                 <element signature="method#update#1;class#DBManager#0" expanded="false" />
+                <element signature="method#getConnection#0;class#DBManager#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -41,6 +95,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -66,14 +121,15 @@
         <option value="$PROJECT_DIR$/HowToUse.txt" />
         <option value="$PROJECT_DIR$/src/com/fish/EasyMysql/Main.java" />
         <option value="$PROJECT_DIR$/src/com/fish/EasyMysql/Examples.java" />
-        <option value="$PROJECT_DIR$/src/com/fish/EasyMysql/DBManager.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/Test.java" />
-        <option value="$PROJECT_DIR$/src/com/fish/EasyMysql/DBWorker.java" />
         <option value="$PROJECT_DIR$/使用说明.txt" />
         <option value="$PROJECT_DIR$/How to use.txt" />
         <option value="$PROJECT_DIR$/DB.properties" />
         <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/fish/Annotation/Table.java" />
+        <option value="$PROJECT_DIR$/src/com/fish/EasyMysql/DBManager.java" />
+        <option value="$PROJECT_DIR$/src/com/fish/EasyMysql/DBWorker.java" />
       </list>
     </option>
   </component>
@@ -137,12 +193,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JavaProject\EasyMysql\libs" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -262,7 +323,12 @@
       <workItem from="1520668437534" duration="1754000" />
       <workItem from="1520746099951" duration="1386000" />
       <workItem from="1521372769777" duration="71000" />
-      <workItem from="1521448506270" duration="1801000" />
+      <workItem from="1521448506270" duration="2043000" />
+      <workItem from="1521555665124" duration="5368000" />
+      <workItem from="1521561123270" duration="13000" />
+      <workItem from="1521561266753" duration="472000" />
+      <workItem from="1521562438022" duration="479000" />
+      <workItem from="1521597490169" duration="1892000" />
     </task>
     <task id="LOCAL-00001" summary="默认的">
       <created>1519447463277</created>
@@ -341,15 +407,28 @@
       <option name="project" value="LOCAL" />
       <updated>1520747015464</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="第五次更新：修正了部分方法名">
+      <created>1521450444714</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1521450444714</updated>
+    </task>
+    <task id="LOCAL-00013" summary="第五次更新：修正了部分方法名">
+      <created>1521450551408</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1521450551408</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38294000" />
+    <option name="totallyTimeSpent" value="46760000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -364,7 +443,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13697916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13697916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -407,14 +486,101 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/fish/EasyMysql/DBManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2322">
+          <caret line="191" column="18" lean-forward="false" selection-start-line="191" selection-start-column="18" selection-end-line="191" selection-end-column="18" />
+          <folding>
+            <element signature="class#Config#0;class#DBManager#0" expanded="false" />
+            <element signature="method#init#0;class#DBManager#0" expanded="false" />
+            <element signature="method#update#0;class#DBManager#0" expanded="false" />
+            <element signature="method#update#1;class#DBManager#0" expanded="false" />
+            <element signature="method#getConnection#0;class#DBManager#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fish/EasyMysql/DBWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="136" column="21" lean-forward="false" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="21" />
+          <folding>
+            <element signature="method#getSqlOrder#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#sleep#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#commit#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#work#1;class#DBWorker#0" expanded="false" />
+            <element signature="method#workQuery#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#delete#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#queryStrings#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#queryMaps#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#query#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#putTableInFile#0;class#DBWorker#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fish/EasyMysql/DBManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5994">
+          <caret line="222" column="28" lean-forward="false" selection-start-line="222" selection-start-column="28" selection-end-line="222" selection-end-column="28" />
+          <folding>
+            <element signature="class#Config#0;class#DBManager#0" expanded="false" />
+            <element signature="method#init#0;class#DBManager#0" expanded="false" />
+            <element signature="method#update#0;class#DBManager#0" expanded="false" />
+            <element signature="method#update#1;class#DBManager#0" expanded="false" />
+            <element signature="method#getConnection#0;class#DBManager#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fish/EasyMysql/DBWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4320">
+          <caret line="354" column="6" lean-forward="false" selection-start-line="354" selection-start-column="6" selection-end-line="354" selection-end-column="6" />
+          <folding>
+            <element signature="method#getSqlOrder#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#sleep#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#commit#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#work#1;class#DBWorker#0" expanded="false" />
+            <element signature="method#workQuery#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#delete#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#queryStrings#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#queryMaps#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#query#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#putTableInFile#0;class#DBWorker#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fish/EasyMysql/DBManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="class#Config#0;class#DBManager#0" expanded="false" />
+            <element signature="method#init#0;class#DBManager#0" expanded="false" />
+            <element signature="method#update#0;class#DBManager#0" expanded="false" />
+            <element signature="method#update#1;class#DBManager#0" expanded="false" />
+            <element signature="method#getConnection#0;class#DBManager#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fish/EasyMysql/DBWorker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#9657#9658#0" expanded="true" />
-            <element signature="e#9710#9711#0" expanded="true" />
+            <element signature="method#getSqlOrder#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#sleep#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#commit#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#work#1;class#DBWorker#0" expanded="false" />
+            <element signature="method#workQuery#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#delete#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#queryStrings#0;class#DBWorker#0" expanded="false" />
             <element signature="method#queryMaps#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#query#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#putTableInFile#0;class#DBWorker#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -428,6 +594,7 @@
             <element signature="method#init#0;class#DBManager#0" expanded="false" />
             <element signature="method#update#0;class#DBManager#0" expanded="false" />
             <element signature="method#update#1;class#DBManager#0" expanded="false" />
+            <element signature="method#getConnection#0;class#DBManager#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -437,9 +604,16 @@
         <state relative-caret-position="3672">
           <caret line="257" column="31" lean-forward="true" selection-start-line="257" selection-start-column="31" selection-end-line="257" selection-end-column="31" />
           <folding>
-            <element signature="e#9657#9658#0" expanded="true" />
-            <element signature="e#9710#9711#0" expanded="true" />
+            <element signature="method#getSqlOrder#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#sleep#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#commit#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#work#1;class#DBWorker#0" expanded="false" />
+            <element signature="method#workQuery#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#delete#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#queryStrings#0;class#DBWorker#0" expanded="false" />
             <element signature="method#queryMaps#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#query#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#putTableInFile#0;class#DBWorker#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -453,6 +627,7 @@
             <element signature="method#init#0;class#DBManager#0" expanded="false" />
             <element signature="method#update#0;class#DBManager#0" expanded="false" />
             <element signature="method#update#1;class#DBManager#0" expanded="false" />
+            <element signature="method#getConnection#0;class#DBManager#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -534,39 +709,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fish/EasyMysql/DBWorker.java">
+    <entry file="file://$PROJECT_DIR$/src/Test.java" />
+    <entry file="jar://$PROJECT_DIR$/libs/AutoMySQL-v1.2.jar!/core/Parser.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="173" column="26" lean-forward="false" selection-start-line="173" selection-start-column="26" selection-end-line="173" selection-end-column="26" />
-          <folding>
-            <element signature="e#9657#9658#0" expanded="true" />
-            <element signature="e#9710#9711#0" expanded="true" />
-            <element signature="method#queryMaps#0;class#DBWorker#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="-134">
+          <caret line="57" column="24" lean-forward="false" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
+    <entry file="jar://$PROJECT_DIR$/libs/AutoMySQL-v1.2.jar!/core/MySQL.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="674">
+          <caret line="99" column="26" lean-forward="false" selection-start-line="99" selection-start-column="26" selection-end-line="99" selection-end-column="26" />
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/AutoMySQL-v1.2.jar!/annotations/Table.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fish/Annotation/Table.java" />
     <entry file="file://$PROJECT_DIR$/src/com/fish/EasyMysql/DBManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="152" column="36" lean-forward="false" selection-start-line="152" selection-start-column="36" selection-end-line="152" selection-end-column="36" />
+        <state relative-caret-position="380">
+          <caret line="230" column="6" lean-forward="false" selection-start-line="230" selection-start-column="6" selection-end-line="230" selection-end-column="6" />
           <folding>
             <element signature="class#Config#0;class#DBManager#0" expanded="false" />
             <element signature="method#init#0;class#DBManager#0" expanded="false" />
             <element signature="method#update#0;class#DBManager#0" expanded="false" />
             <element signature="method#update#1;class#DBManager#0" expanded="false" />
+            <element signature="method#getConnection#0;class#DBManager#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fish/EasyMysql/DBWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6588">
+          <caret line="479" column="56" lean-forward="false" selection-start-line="479" selection-start-column="56" selection-end-line="479" selection-end-column="56" />
+          <folding>
+            <element signature="method#getSqlOrder#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#sleep#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#commit#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#work#1;class#DBWorker#0" expanded="false" />
+            <element signature="method#workQuery#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#delete#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#queryStrings#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#queryMaps#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#query#0;class#DBWorker#0" expanded="false" />
+            <element signature="method#putTableInFile#0;class#DBWorker#0" expanded="false" />
           </folding>
         </state>
       </provider>
