@@ -12,24 +12,44 @@ or you can download EasyMysql.rar, which is jars
 
 ### 下面演示了结合 AutoMySQL 小框架的查询操作：
 #### if you use AutoMySQL and this jar:
-    // get information from file
-    DBManager.update(new File("testFile/config/DB.properties"));
-
-    // connect to database
-    DBWorker.wakeUp();
-
-    // query data
-    List<Map> books = DBWorker.queryMaps("book");
-
-    for (Map<String, Object> map : books)
+##### （代码中的 Book.java 在源码中有提供）
+    import com.fish.EasyMysql.DBManager;
+    import com.fish.EasyMysql.DBWorker;
+    
+    import java.io.File;
+    
+    public class Test
     {
-        // read data from map and box it an object
-        Book book = MySQL.getBeanByMap(map, Book.class);
-        System.out.println(book);
+        public static void main(String[] args)
+        {
+            // set config...
+            DBManager.init(new File("DB.properties"));
+    
+            // auto commit ==> default is true
+            //DBManager.setAutoCommit(false);
+    
+            // connect to database...
+            DBWorker.wakeUp();
+    
+            Book book = new Book();
+            book.setName("奇异人生");
+            book.setPrice(68);
+    
+            // insert a new book in database...
+            //DBWorker.insert(book);
+    
+            // put whole table in a file...
+            //DBWorker.putTableInFile("book", "Z:/book.txt");
+    
+            // query a book...
+            book = DBWorker.query(book, Book.class);
+            System.out.println(book);
+    
+            // release resources and commit transaction...
+            DBWorker.sleep();
+        }
     }
 
-    // release resources
-    DBWorker.sleep();
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ***bug*** !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -41,6 +61,20 @@ if you use DBManager.update(File) to update infomaton of database, you will get 
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ***update*** !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+### *2018-3-21:*<br/>
+#####这是一次大整合大更新！结合 AutoMySQL 进行完善功能！<br/>
+1. 整个用法和方法命名有所改进，整体更实用！<br/>
+2. 加入了事务的处理，默认自动提交事务，也可进行设置！<br/>
+3. 修复了之前插入的问题，现在的插入可以直接传入一个 orm 实体类对象，底层自动转化为数据表数据！<br/>
+4. 由于加入了 AutoMySQL 框架，查询返回值可以直接返回实体类对象，而且无需强制类型转换！<br/>
+5. 优化了代码的质量以及 javadoc 的质量！<br/>
+
+*突然发现夸自己的作品也是一件很累的事情啊 ~手动滑稽:)~*<br/>
+
+this version is perfect! hahaha, at lease before the next version!<br/>
+
+
 
 ### *2018-3-11:*<br/>
 修改了查询的方法名，使得意思更加通熟易懂。<br/>

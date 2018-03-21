@@ -11,7 +11,7 @@
 *
 **********************************************************************************************************
 * 使用步骤：
-* 1，在项目中导入 EasyMysql 库
+* 1，在项目中导入 EasyMysql 库，v2.0 版本以上的还需要 AutoMySQL v1.2 以上的框架
 *
 * 2，在项目根目录下创建 DB.properties 文件，将数据库连接信息更改为你要连接的数据库信息
 *
@@ -35,16 +35,16 @@ password=1997
 *     首先需要调用 DBWorker.wakeUp() 来连接数据库！
 *     使用完就要调用 DBWorker.sleep() 来释放资源，断开和数据库的链接
 *     1）插入数据
-*           // 向 goods_cates 表插入一行数据，“8” 和 “手机” 是行内元素
-*           DBWorker.insert("goods_cates", new String[] {"8", "手机"});
+*           // 向 book 表插入 book 对象
+*           DBWorker.insert(book);
 *
 *     2）删除数据
 *           // 从 goods_cates 表中删除一行数据，cate_name 是手机
 *           DBWorker.delete("goods_cates", "cate_name = \"手机\"");
 *
 *     3）修改数据
-*           // 从 goods_cates 表中修改一行数据，把 cate_name = "笔记本配件" 修改成 cate_name = "手机"
-*           int count = DBWorker.update("goods_cates", "cate_name", "笔记本配件", "手机");
+*           // 用 oldBook 找到旧数据，然后更新为 newBook
+*           int count = DBWorker.update(oldBook, newBook);
 *           System.out.println(count); // 返回影响的行数
 *
 *     4）查询数据
@@ -55,10 +55,12 @@ password=1997
 *           {
 *               System.out.println(s); // 取得字符串打印出来
 *           }
+*           // 通过 targetBook 找到数据，并返回 book 对象
+*           Book book = DBWorker.query(targetBook, Book.class);
 *
 *     5）将数据表保存到文件中
 *           // 将一整份表都存进文件中，比如将 test 表保存进 Z:/test.txt
-*           DBWorker.putTableInFile("test", "test.txt");
+*           DBWorker.putTableInFile("test", "Z:/test.txt");
 *
 * 上面几种是简单的演示，更多用法可以参考 API 文档
 *
@@ -73,30 +75,31 @@ public class Examples
 {
     public static void main(String[] args) throws Exception
     {
-        //DBWorker.wakeUp(); // 连接数据库
+        // set config...
+        DBManager.init(new File("DB.properties"));
 
-        // 向 goods_cates 表插入一行数据，“8” 和 “手机” 是行内元素
-        //DBWorker.insert("goods_cates", new String[] {"8", "手机"});
+        // auto commit ==> default is true
+        //DBManager.setAutoCommit(false);
 
-        // 从 goods_cates 表中删除一行数据，id = 8
-        //DBWorker.delete("goods_cates", "cate_name = \"手机\"");
+        // connect to database...
+        DBWorker.wakeUp();
 
-        // 从 goods_cates 表中修改一行数据，把 cate_name = "笔记本配件" 修改成 cate_name = "手机"
-        //int count = DBWorker.update("goods_cates", "cate_name", "笔记本配件", "手机");
-        //System.out.println(count);
+        Book book = new Book();
+        book.setName("奇异人生");
+        book.setPrice(68);
 
-        // 从 goods_cates 表中查询一行数据，id = 4
-        /*List<String> list = DBWorker.query("goods_cates", "id = 4");
-        //List<Map> list = DBWorker.queryMaps("goods_cates", "id = 4");
-        for (String s : list) // for (Map m : list)
-        {
-            System.out.println(s);
-        }*/
+        // insert a new book in database...
+        //DBWorker.insert(book);
 
-        // 将一整份表都存进文件中，比如将 test 表保存进 Z:/test.txt
-        //DBWorker.putTableInFile("test", "test.txt");
+        // put whole table in a file...
+        //DBWorker.putTableInFile("book", "Z:/book.txt");
 
-        //DBWorker.sleep(); // 释放资源，断开和数据库的链接
+        // query a book...
+        book = DBWorker.query(book, Book.class);
+        System.out.println(book);
+
+        // release resources and commit transaction...
+        DBWorker.sleep();
     }
 }
 

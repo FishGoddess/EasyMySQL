@@ -14,7 +14,7 @@
 *
 *******************************************************************************************************
 * using steps:
-* 1: import the EasyMysql library.
+* 1: import the EasyMysql library. (v2.0 version need a AutoMySQL v1.2 or high version)
 *
 * 2: create a file named DB.properties, then put it in your root directory of your project.
 *    replace the original infomation with your infomation.
@@ -40,16 +40,16 @@ password=1997
 *     At first, you should invoke DBWorker.wakeUp() to connect to database!
 *     After you use, you should release resources by invoking DBWorker.sleep()!
 *     1: insert data
-*           // insert data to goods_cates, "8" and "..." is two elements in one row
-*           DBWorker.insert("goods_cates", new String[] {"8", "..."});
+*           // insert a new book in database...
+*           DBWorker.insert(book);
 *
 *     2: delete data
 *           // delete the row in goods_cates, which cate_name is "..."
 *           DBWorker.delete("goods_cates", "cate_name = \"...\"");
 *
 *     3: update data
-*           // update one row in goods_cates, update cate_name from "..." to "....."
-*           int count = DBWorker.update("goods_cates", "cate_name", "...", ".....");
+*           // update oldBook to newBook
+*           int count = DBWorker.update(oldBook, newBook);
 *           System.out.println(count); // retun the count of effected rows
 *
 *     4: query data
@@ -60,6 +60,8 @@ password=1997
 *           {
 *               System.out.println(s); // print the string obtained
 *           }
+*           // find data by targetBook, then return book object
+*           Book book = DBWorker.query(targetBook, Book.class);
 *
 *     5: save a whole data table to disk
 *           // this will put the whole table in a file and store to disk.
@@ -79,31 +81,31 @@ public class Examples
 {
     public static void main(String[] args) throws Exception
     {
-        //DBWorker.wakeUp(); // connect to database
+        // set config...
+        DBManager.init(new File("DB.properties"));
 
-        // insert data to goods_cates, "8" and "..." is two elements in one row
-        //DBWorker.insert("goods_cates", new String[] {"8", "..."});
+        // auto commit ==> default is true
+        //DBManager.setAutoCommit(false);
 
-        // delete the row in goods_cates, which cate_name is "..."
-        //DBWorker.delete("goods_cates", "cate_name = \"...\"");
+        // connect to database...
+        DBWorker.wakeUp();
 
-        // update one row in goods_cates, update cate_name from "..." to "....."
-        //int count = DBWorker.update("goods_cates", "cate_name", "...", ".....");
-        //System.out.println(count);
+        Book book = new Book();
+        book.setName("奇异人生");
+        book.setPrice(68);
 
-        // query one row in goods_cates, which id is 4
-        /*List<String> list = DBWorker.queryStrings("goods_cates", "id = 4");
-        //List<Map> list = DBWorker.queryMaps("goods_cates", "id = 4");
-        for (String s : list) // for (Map m : list)
-        {
-             System.out.println(s);
-        }*/
+        // insert a new book in database...
+        //DBWorker.insert(book);
 
-        // this will put the whole table in a file and store to disk.
-        // for example, save test table as test.txt and store to Z:/
-        //DBWorker.putTableInFile("test", "Z:/test.txt");
+        // put whole table in a file...
+        //DBWorker.putTableInFile("book", "Z:/book.txt");
 
-        //DBWorker.sleep(); // release resources
+        // query a book...
+        book = DBWorker.query(book, Book.class);
+        System.out.println(book);
+
+        // release resources and commit transaction...
+        DBWorker.sleep();
     }
 }
 
