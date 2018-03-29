@@ -8,6 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4d6c46e6-1f87-4b19-a378-baa98a8664b4" name="默认的" comment="第六次大更新：工具">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,6 +74,11 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -94,9 +100,9 @@
         <option value="$PROJECT_DIR$/src/com/fish/Annotation/Table.java" />
         <option value="$PROJECT_DIR$/src/com/fish/EasyMysql/DBManager.java" />
         <option value="$PROJECT_DIR$/src/com/fish/EasyMysql/DBWorker.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/使用说明.txt" />
         <option value="$PROJECT_DIR$/How to use.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -411,7 +417,7 @@
       <workItem from="1521895814570" duration="317000" />
       <workItem from="1521960908017" duration="125000" />
       <workItem from="1521966932086" duration="110000" />
-      <workItem from="1522318617706" duration="713000" />
+      <workItem from="1522318617706" duration="816000" />
     </task>
     <task id="LOCAL-00001" summary="默认的">
       <created>1519447463277</created>
@@ -532,11 +538,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521602098168</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="第六次大更新：工具">
+      <created>1522319638920</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1522319638920</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49765000" />
+    <option name="totallyTimeSpent" value="49868000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -998,8 +1011,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="675">
-            <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <first_editor relative-caret-position="351">
+            <caret line="64" column="18" lean-forward="false" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
             <folding />
           </first_editor>
           <second_editor />
