@@ -8,49 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4d6c46e6-1f87-4b19-a378-baa98a8664b4" name="默认的" comment="第七次大更新：重构了整个框架，并且加入了数据库连接池的功能！">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-frame.html" afterPath="$PROJECT_DIR$/javadoc/allclasses-frame.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" afterPath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/core/DBManager.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/core/DBManager.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/core/DBWorker.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/core/DBWorker.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/core/class-use/DBManager.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/core/class-use/DBManager.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/core/class-use/DBWorker.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/core/class-use/DBWorker.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/core/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/core/package-frame.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/core/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/core/package-summary.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/core/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/core/package-tree.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/core/package-use.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/core/package-use.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/exception/UninitializedException.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/exception/UninitializedException.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/exception/class-use/UninitializedException.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/exception/class-use/UninitializedException.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/exception/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/exception/package-frame.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/exception/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/exception/package-summary.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/exception/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/exception/package-tree.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/exception/package-use.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/exception/package-use.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/log/Logger.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/log/Logger.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/log/class-use/Logger.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/log/class-use/Logger.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/log/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/log/package-frame.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/log/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/log/package-summary.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/log/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/log/package-tree.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/log/package-use.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/log/package-use.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/constant-values.html" afterPath="$PROJECT_DIR$/javadoc/constant-values.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/deprecated-list.html" afterPath="$PROJECT_DIR$/javadoc/deprecated-list.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/help-doc.html" afterPath="$PROJECT_DIR$/javadoc/help-doc.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-1.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-1.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-10.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-10.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-11.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-11.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-2.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-2.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-3.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-3.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-4.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-4.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-5.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-5.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-6.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-6.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-7.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-7.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-8.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-8.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-9.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-9.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index.html" afterPath="$PROJECT_DIR$/javadoc/index.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/overview-frame.html" afterPath="$PROJECT_DIR$/javadoc/overview-frame.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/overview-summary.html" afterPath="$PROJECT_DIR$/javadoc/overview-summary.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/overview-tree.html" afterPath="$PROJECT_DIR$/javadoc/overview-tree.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/serialized-form.html" afterPath="$PROJECT_DIR$/javadoc/serialized-form.html" />
-      <change beforePath="$PROJECT_DIR$/src/com/fish/core/DBManager.java" afterPath="$PROJECT_DIR$/src/com/fish/core/DBManager.java" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EasyMysql_jar/EasyMysql.jar" afterPath="$PROJECT_DIR$/out/artifacts/EasyMysql_jar/EasyMysql.jar" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -371,7 +329,7 @@
       <workItem from="1521960908017" duration="125000" />
       <workItem from="1521966932086" duration="110000" />
       <workItem from="1522318617706" duration="925000" />
-      <workItem from="1522320625756" duration="8712000" />
+      <workItem from="1522320625756" duration="8785000" />
     </task>
     <task id="LOCAL-00001" summary="默认的">
       <created>1519447463277</created>
@@ -513,11 +471,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522330953066</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="第七次大更新：重构了整个框架，并且加入了数据库连接池的功能！">
+      <created>1522331287761</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1522331287762</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58689000" />
+    <option name="totallyTimeSpent" value="58762000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
