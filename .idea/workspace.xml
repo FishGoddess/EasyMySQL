@@ -8,20 +8,29 @@
   <component name="ChangeListManager">
     <list default="true" id="4d6c46e6-1f87-4b19-a378-baa98a8664b4" name="默认的" comment="第七次大更新：重构了整个框架，并且加入了数据库连接池的功能！">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/DB.properties" afterPath="$PROJECT_DIR$/DB.properties" />
-      <change beforePath="$PROJECT_DIR$/EasyMysql.iml" afterPath="$PROJECT_DIR$/EasyMysql.iml" />
-      <change beforePath="$PROJECT_DIR$/How to use.txt" afterPath="$PROJECT_DIR$/How to use.txt" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change beforePath="$PROJECT_DIR$/javadoc/allclasses-frame.html" afterPath="$PROJECT_DIR$/javadoc/allclasses-frame.html" />
       <change beforePath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" afterPath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/DBManager.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/DBManager.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/DBWorker.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/DBWorker.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/class-use/DBManager.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/class-use/DBManager.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/class-use/DBWorker.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/class-use/DBWorker.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-frame.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-summary.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-tree.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-use.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/EasyMysql/package-use.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/core/DBManager.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/core/DBManager.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/core/DBWorker.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/core/DBWorker.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/core/class-use/DBManager.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/core/class-use/DBManager.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/core/class-use/DBWorker.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/core/class-use/DBWorker.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/core/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/core/package-frame.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/core/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/core/package-summary.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/core/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/core/package-tree.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/core/package-use.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/core/package-use.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/exception/UninitializedException.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/exception/UninitializedException.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/exception/class-use/UninitializedException.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/exception/class-use/UninitializedException.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/exception/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/exception/package-frame.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/exception/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/exception/package-summary.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/exception/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/exception/package-tree.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/exception/package-use.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/exception/package-use.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/log/Logger.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/log/Logger.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/log/class-use/Logger.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/log/class-use/Logger.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/log/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/log/package-frame.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/log/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/log/package-summary.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/log/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/log/package-tree.html" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/fish/log/package-use.html" afterPath="$PROJECT_DIR$/javadoc/com/fish/log/package-use.html" />
       <change beforePath="$PROJECT_DIR$/javadoc/constant-values.html" afterPath="$PROJECT_DIR$/javadoc/constant-values.html" />
       <change beforePath="$PROJECT_DIR$/javadoc/deprecated-list.html" afterPath="$PROJECT_DIR$/javadoc/deprecated-list.html" />
       <change beforePath="$PROJECT_DIR$/javadoc/help-doc.html" afterPath="$PROJECT_DIR$/javadoc/help-doc.html" />
@@ -40,14 +49,8 @@
       <change beforePath="$PROJECT_DIR$/javadoc/overview-frame.html" afterPath="$PROJECT_DIR$/javadoc/overview-frame.html" />
       <change beforePath="$PROJECT_DIR$/javadoc/overview-summary.html" afterPath="$PROJECT_DIR$/javadoc/overview-summary.html" />
       <change beforePath="$PROJECT_DIR$/javadoc/overview-tree.html" afterPath="$PROJECT_DIR$/javadoc/overview-tree.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/package-list" afterPath="$PROJECT_DIR$/javadoc/package-list" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EasyMysql_jar/EasyMysql.jar" afterPath="$PROJECT_DIR$/out/artifacts/EasyMysql_jar/EasyMysql.jar" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasyMysql/com/fish/EasyMysql/DBManager$Config.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasyMysql/com/fish/EasyMysql/DBManager.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasyMysql/com/fish/EasyMysql/DBWorker.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/fish/EasyMysql/DBManager.java" afterPath="$PROJECT_DIR$/src/com/fish/core/DBManager.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/fish/EasyMysql/DBWorker.java" afterPath="$PROJECT_DIR$/src/com/fish/core/DBWorker.java" />
-      <change beforePath="$PROJECT_DIR$/使用说明.txt" afterPath="$PROJECT_DIR$/使用说明.txt" />
+      <change beforePath="$PROJECT_DIR$/javadoc/serialized-form.html" afterPath="$PROJECT_DIR$/javadoc/serialized-form.html" />
+      <change beforePath="$PROJECT_DIR$/src/com/fish/core/DBManager.java" afterPath="$PROJECT_DIR$/src/com/fish/core/DBManager.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,13 +62,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DBManager.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DBManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/fish/core/DBManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2640">
-              <caret line="125" column="82" lean-forward="false" selection-start-line="125" selection-start-column="82" selection-end-line="125" selection-end-column="82" />
+            <state relative-caret-position="324">
+              <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding>
-                <element signature="class#Config#0;class#DBManager#0" expanded="false" />
+                <element signature="method#init#0;class#DBManager#0" expanded="false" />
                 <element signature="method#checkIfInited#0;class#DBManager#0" expanded="false" />
                 <element signature="method#update#0;class#DBManager#0" expanded="false" />
                 <element signature="method#update#1;class#DBManager#0" expanded="false" />
@@ -75,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBWorker.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DBWorker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/fish/core/DBWorker.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="473" column="7" lean-forward="true" selection-start-line="473" selection-start-column="7" selection-end-line="473" selection-end-column="7" />
+              <caret line="473" column="7" lean-forward="false" selection-start-line="473" selection-start-column="7" selection-end-line="473" selection-end-column="7" />
               <folding>
                 <element signature="method#getSqlOrder#0;class#DBWorker#0" expanded="false" />
                 <element signature="method#sleep#0;class#DBWorker#0" expanded="false" />
@@ -141,14 +144,14 @@
         <option value="$PROJECT_DIR$/src/com/fish/EasyMysql/DBManager.java" />
         <option value="$PROJECT_DIR$/src/com/fish/core/DBWorker.java" />
         <option value="$PROJECT_DIR$/src/test/main.java" />
-        <option value="$PROJECT_DIR$/src/com/fish/core/DBManager.java" />
         <option value="$PROJECT_DIR$/src/com/fish/log/Logger.java" />
         <option value="$PROJECT_DIR$/src/test/Main.java" />
         <option value="$PROJECT_DIR$/DB.properties" />
         <option value="$PROJECT_DIR$/params.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/使用说明.txt" />
         <option value="$PROJECT_DIR$/How to use.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/com/fish/core/DBManager.java" />
       </list>
     </option>
   </component>
@@ -251,25 +254,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="test.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="EasyMysql" />
-      <envs />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -350,11 +334,6 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -392,7 +371,7 @@
       <workItem from="1521960908017" duration="125000" />
       <workItem from="1521966932086" duration="110000" />
       <workItem from="1522318617706" duration="925000" />
-      <workItem from="1522320625756" duration="8378000" />
+      <workItem from="1522320625756" duration="8712000" />
     </task>
     <task id="LOCAL-00001" summary="默认的">
       <created>1519447463277</created>
@@ -527,11 +506,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522319732366</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="第七次大更新：重构了整个框架，并且加入了数据库连接池的功能！">
+      <created>1522330953066</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1522330953066</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58355000" />
+    <option name="totallyTimeSpent" value="58689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -597,7 +583,8 @@
     <MESSAGE value="第六次大更新：整体架构都被更新了！" />
     <MESSAGE value="第六次大更新：使用手册" />
     <MESSAGE value="第六次大更新：工具" />
-    <option name="LAST_COMMIT_MESSAGE" value="第六次大更新：工具" />
+    <MESSAGE value="第七次大更新：重构了整个框架，并且加入了数据库连接池的功能！" />
+    <option name="LAST_COMMIT_MESSAGE" value="第七次大更新：重构了整个框架，并且加入了数据库连接池的功能！" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -611,7 +598,7 @@
         <state relative-caret-position="3213">
           <caret line="230" column="6" lean-forward="false" selection-start-line="230" selection-start-column="6" selection-end-line="230" selection-end-column="6" />
           <folding>
-            <element signature="class#Config#0;class#DBManager#0" expanded="false" />
+            <element signature="method#init#0;class#DBManager#0" expanded="false" />
             <element signature="method#checkIfInited#0;class#DBManager#0" expanded="false" />
             <element signature="method#update#0;class#DBManager#0" expanded="false" />
             <element signature="method#update#1;class#DBManager#0" expanded="false" />
@@ -644,7 +631,7 @@
         <state relative-caret-position="6210">
           <caret line="230" column="6" lean-forward="false" selection-start-line="230" selection-start-column="6" selection-end-line="230" selection-end-column="6" />
           <folding>
-            <element signature="class#Config#0;class#DBManager#0" expanded="false" />
+            <element signature="method#init#0;class#DBManager#0" expanded="false" />
             <element signature="method#checkIfInited#0;class#DBManager#0" expanded="false" />
             <element signature="method#update#0;class#DBManager#0" expanded="false" />
             <element signature="method#update#1;class#DBManager#0" expanded="false" />
@@ -677,7 +664,7 @@
         <state relative-caret-position="3213">
           <caret line="230" column="6" lean-forward="false" selection-start-line="230" selection-start-column="6" selection-end-line="230" selection-end-column="6" />
           <folding>
-            <element signature="class#Config#0;class#DBManager#0" expanded="false" />
+            <element signature="method#init#0;class#DBManager#0" expanded="false" />
             <element signature="method#checkIfInited#0;class#DBManager#0" expanded="false" />
             <element signature="method#update#0;class#DBManager#0" expanded="false" />
             <element signature="method#update#1;class#DBManager#0" expanded="false" />
@@ -710,7 +697,7 @@
         <state relative-caret-position="3213">
           <caret line="230" column="6" lean-forward="false" selection-start-line="230" selection-start-column="6" selection-end-line="230" selection-end-column="6" />
           <folding>
-            <element signature="class#Config#0;class#DBManager#0" expanded="false" />
+            <element signature="method#init#0;class#DBManager#0" expanded="false" />
             <element signature="method#checkIfInited#0;class#DBManager#0" expanded="false" />
             <element signature="method#update#0;class#DBManager#0" expanded="false" />
             <element signature="method#update#1;class#DBManager#0" expanded="false" />
@@ -762,7 +749,7 @@
         <state relative-caret-position="3213">
           <caret line="230" column="6" lean-forward="false" selection-start-line="230" selection-start-column="6" selection-end-line="230" selection-end-column="6" />
           <folding>
-            <element signature="class#Config#0;class#DBManager#0" expanded="false" />
+            <element signature="method#init#0;class#DBManager#0" expanded="false" />
             <element signature="method#checkIfInited#0;class#DBManager#0" expanded="false" />
             <element signature="method#update#0;class#DBManager#0" expanded="false" />
             <element signature="method#update#1;class#DBManager#0" expanded="false" />
@@ -776,7 +763,7 @@
         <state relative-caret-position="2322">
           <caret line="191" column="18" lean-forward="false" selection-start-line="191" selection-start-column="18" selection-end-line="191" selection-end-column="18" />
           <folding>
-            <element signature="class#Config#0;class#DBManager#0" expanded="false" />
+            <element signature="method#init#0;class#DBManager#0" expanded="false" />
             <element signature="method#checkIfInited#0;class#DBManager#0" expanded="false" />
             <element signature="method#update#0;class#DBManager#0" expanded="false" />
             <element signature="method#update#1;class#DBManager#0" expanded="false" />
@@ -809,7 +796,7 @@
         <state relative-caret-position="5994">
           <caret line="222" column="28" lean-forward="false" selection-start-line="222" selection-start-column="28" selection-end-line="222" selection-end-column="28" />
           <folding>
-            <element signature="class#Config#0;class#DBManager#0" expanded="false" />
+            <element signature="method#init#0;class#DBManager#0" expanded="false" />
             <element signature="method#checkIfInited#0;class#DBManager#0" expanded="false" />
             <element signature="method#update#0;class#DBManager#0" expanded="false" />
             <element signature="method#update#1;class#DBManager#0" expanded="false" />
@@ -842,7 +829,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="class#Config#0;class#DBManager#0" expanded="false" />
+            <element signature="method#init#0;class#DBManager#0" expanded="false" />
             <element signature="method#checkIfInited#0;class#DBManager#0" expanded="false" />
             <element signature="method#update#0;class#DBManager#0" expanded="false" />
             <element signature="method#update#1;class#DBManager#0" expanded="false" />
@@ -875,7 +862,7 @@
         <state relative-caret-position="1917">
           <caret line="163" column="5" lean-forward="false" selection-start-line="163" selection-start-column="5" selection-end-line="163" selection-end-column="5" />
           <folding>
-            <element signature="class#Config#0;class#DBManager#0" expanded="false" />
+            <element signature="method#init#0;class#DBManager#0" expanded="false" />
             <element signature="method#checkIfInited#0;class#DBManager#0" expanded="false" />
             <element signature="method#update#0;class#DBManager#0" expanded="false" />
             <element signature="method#update#1;class#DBManager#0" expanded="false" />
@@ -908,7 +895,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="class#Config#0;class#DBManager#0" expanded="false" />
+            <element signature="method#init#0;class#DBManager#0" expanded="false" />
             <element signature="method#checkIfInited#0;class#DBManager#0" expanded="false" />
             <element signature="method#update#0;class#DBManager#0" expanded="false" />
             <element signature="method#update#1;class#DBManager#0" expanded="false" />
@@ -1029,31 +1016,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="837">
-            <caret line="31" column="56" lean-forward="false" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fish/core/DBManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2640">
-          <caret line="125" column="82" lean-forward="false" selection-start-line="125" selection-start-column="82" selection-end-line="125" selection-end-column="82" />
-          <folding>
-            <element signature="class#Config#0;class#DBManager#0" expanded="false" />
-            <element signature="method#checkIfInited#0;class#DBManager#0" expanded="false" />
-            <element signature="method#update#0;class#DBManager#0" expanded="false" />
-            <element signature="method#update#1;class#DBManager#0" expanded="false" />
-            <element signature="method#getConnection#0;class#DBManager#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/使用说明.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
@@ -1078,10 +1040,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="691">
+            <caret line="163" column="4" lean-forward="false" selection-start-line="163" selection-start-column="4" selection-end-line="163" selection-end-column="4" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fish/core/DBWorker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="473" column="7" lean-forward="true" selection-start-line="473" selection-start-column="7" selection-end-line="473" selection-end-column="7" />
+          <caret line="473" column="7" lean-forward="false" selection-start-line="473" selection-start-column="7" selection-end-line="473" selection-end-column="7" />
           <folding>
             <element signature="method#getSqlOrder#0;class#DBWorker#0" expanded="false" />
             <element signature="method#sleep#0;class#DBWorker#0" expanded="false" />
@@ -1093,6 +1066,20 @@
             <element signature="method#queryMaps#0;class#DBWorker#0" expanded="false" />
             <element signature="method#query#0;class#DBWorker#0" expanded="false" />
             <element signature="method#putTableInFile#0;class#DBWorker#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fish/core/DBManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="method#init#0;class#DBManager#0" expanded="false" />
+            <element signature="method#checkIfInited#0;class#DBManager#0" expanded="false" />
+            <element signature="method#update#0;class#DBManager#0" expanded="false" />
+            <element signature="method#update#1;class#DBManager#0" expanded="false" />
+            <element signature="method#getConnection#0;class#DBManager#0" expanded="false" />
           </folding>
         </state>
       </provider>

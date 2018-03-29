@@ -25,49 +25,6 @@ import java.util.Properties;
 public final class DBManager
 {
     /**
-     * 数据库连接配置类 config class
-     * 配置文件
-     * 一开始就把数据库连接配置文件加载到 config 文件中，提高效率
-     *
-     * @author Fish
-     * */
-    private static class Config
-    {
-        private Config()
-        {}
-
-        /**
-         * 数据库连接驱动名字
-         */
-        private static final String DRIVER = "com.mysql.jdbc.Driver";
-
-        /**
-         * 数据库连接主机
-         */
-        private static String databaseHost = null;
-
-        /**
-         * 用户名
-         */
-        private static String user = null;
-
-        /**
-         * 密码
-         */
-        private static String password = null;
-
-        /**
-         * 数据库连接地址
-         */
-        private static StringBuilder url = null;
-
-        /**
-         * 正在使用的数据库
-         * */
-        private static String usingDatabase = null;
-    }
-
-    /**
      * 标记是否已经初始化，除非调用 update 方法，否则该变量不应该被改写
      *
      * (mark the status of initation)
@@ -124,15 +81,6 @@ public final class DBManager
                 Properties properties = new Properties();
                 properties.load(new BufferedInputStream(new FileInputStream(filePath)));
                 properties.setProperty("driverClassName", "com.mysql.jdbc.Driver");
-
-                /*Config.databaseHost = properties.getProperty("databaseHost");
-                Config.user = properties.getProperty("user");
-                Config.password = properties.getProperty("password");
-                Config.usingDatabase = properties.getProperty("usingDatabase");
-
-                Config.url.append("jdbc:mysql://");
-                Config.url.append(Config.databaseHost + "/");
-                Config.url.append(Config.usingDatabase + "?useSSL=false");*/
 
                 dataSource = BasicDataSourceFactory.createDataSource(properties);
 
@@ -282,26 +230,6 @@ public final class DBManager
     {
         DBManager.autoCommit = autoCommit;
     }
-
-    /**
-     * 将一个装着数据库信息的 Map 转换成对应的 orm 实体类对象
-     * 正确的使用方法是这个 Map 的 key 值必须和实体类的属性相同
-     *
-     * (change data in Map to an orm object)
-     * (the right way to use is that the key of this Map must be the same as the field of this object)
-     *
-     * //@param data 装着数据的 Map，通常是通过 DBWorker.queryMaps 获得的
-     *             (this Map is filled with data, and made by DBWorker.queryMaps)
-     * //@param clazz 这个实体类的类型，T 就是具体类型，比如 Book.class
-     *              (the type of this entity, T is real type, such as Book.class)
-     * //@param <T>  T 就是具体类型，比如 Book.class
-     *             (T is real type, such as Book.class)
-     * @return 返回获得的对象 (return your object)
-     * */
-    /*public static <T> T getBean(Map<String, Object> data, Class<T> clazz)
-    {
-        return MySQL.getBeanByMap(data, clazz);
-    }*/
 
     /**
      * 获得一个工作者，用来对数据库进行基本操作

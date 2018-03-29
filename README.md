@@ -36,17 +36,17 @@ or you can download EasyMysql.rar, which is jars
             book.setPrice(68);
     
             // insert a new book in database...
-            //DBWorker.insert(book);
+            //dbWorker.insert(book);
     
             // put whole table in a file...
-            //DBWorker.putTableInFile("book", "Z:/book.txt");
+            //dbWorker.putTableInFile("book", "Z:/book.txt");
     
             // query a book...
-            book = DBWorker.query(book, Book.class);
+            book = dbWorker.query(book, Book.class);
             System.out.println(book);
     
             // release resources and commit transaction...
-            DBWorker.sleep();
+            dbWorker.sleep();
         }
     }
 
@@ -160,4 +160,6 @@ add some English introduction<br/>
 * minEvictableIdleTimeMillis<br/>
 连接在池中保持空闲而不被空闲连接回收器线程<br/>
 *ex: 10000*
+
+<br/>
 =============================================================<br/>
