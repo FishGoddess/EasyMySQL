@@ -254,7 +254,7 @@ public final class DBWorker
      *                  这里需要注意，如果传入 1，就会删除整份表，为了防止误操作导致删除整份表，在这里特意对 "1" 做了处理，
      *                  如果你要删除整份表，传入 "1" 将是无效的，需要传入 "ALL" 才能执行！
      *                  (delete data depending on your selection)
-     * @return true 删除成功 (Done!)，false 删除失败 (you failed!)
+     * @return true 删除成功 (Done!)，false 删除失败 (you failed!)....Maybe this is what you think, but you are wrong! It's always false!
      */
     public boolean delete(String tableName, String selection)
     {
