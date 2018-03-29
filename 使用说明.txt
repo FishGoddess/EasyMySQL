@@ -17,57 +17,55 @@
 *
 *     下面为 DB.properties 文件的主题内容：（等号内的。。）
 =================================
-# Mysql 数据库的主机 ip 地址
-databaseHost=127.0.0.1
+# Mysql 数据库的 url (必须 Necessary)
+url=jdbc:mysql://127.0.0.1:3306/java?useSSL=false
 
-# 指定使用的数据库
-usingDatabase=workers
+# 用户名 (必须 Necessary)
+username=root
 
-# 用户名
-user=root
-
-# 密码
+# 密码 (必须 Necessary)
 password=1997
 =================================
 *     当你修改了这个文件的内容时，可以通过调用 DBManager 类中的静态方法 update() 来更新数据
+*     更多参数可以查看 params.md 参考 dpcp 官网！
 *
-* 3，开始使用库中的方法，通过 DBWorker 类来调用
-*     首先需要调用 DBWorker.wakeUp() 来连接数据库！
+* 3，开始使用库中的方法，通过 DBWorker 对象来调用
+*     首先需要调用 DBWorker dbWorker = DBManager.getDBWorker(); 来连接数据库，并获取对象！
 *     使用完就要调用 DBWorker.sleep() 来释放资源，断开和数据库的链接
 *     1）插入数据
 *           // 向 book 表插入 book 对象
-*           DBWorker.insert(book);
+*           dbWorker.insert(book);
 *
 *     2）删除数据
 *           // 从 goods_cates 表中删除一行数据，cate_name 是手机
-*           DBWorker.delete("goods_cates", "cate_name = \"手机\"");
+*           dbWorker.delete("goods_cates", "cate_name = \"手机\"");
 *
 *     3）修改数据
 *           // 用 oldBook 找到旧数据，然后更新为 newBook
-*           int count = DBWorker.update(oldBook, newBook);
+*           int count = dbWorker.update(oldBook, newBook);
 *           System.out.println(count); // 返回影响的行数
 *
 *     4）查询数据
 *           // 从 goods_cates 表中查询一行数据，id = 4
-*           List<String> list = DBWorker.queryStrings("goods_cates", "id = 4");
-*           //List<Map> list = DBWorker.queryMaps("goods_cates", "id = 4");
+*           List<String> list = dbWorker.queryStrings("goods_cates", "id = 4");
+*           //List<Map> list = dbWorker.queryMaps("goods_cates", "id = 4");
 *           for (String s : list) // for (Map m : list)
 *           {
 *               System.out.println(s); // 取得字符串打印出来
 *           }
 *           // 通过 targetBook 找到数据，并返回 book 对象
-*           Book book = DBWorker.query(targetBook, Book.class);
+*           Book book = dbWorker.query(targetBook, Book.class);
 *
 *     5）将数据表保存到文件中
 *           // 将一整份表都存进文件中，比如将 test 表保存进 Z:/test.txt
-*           DBWorker.putTableInFile("test", "Z:/test.txt");
+*           dbWorker.putTableInFile("test", "Z:/test.txt");
 *
 * 上面几种是简单的演示，更多用法可以参考 API 文档
 *
 **********************************************************************************************************
 // 示例代码，可以直接运行，注意文件名可能需要改为 Examples.java
 
-package com.fish.EasyMysql;
+package com.fish.core;
 
 import java.util.List;
 
@@ -78,28 +76,28 @@ public class Examples
         // set config...
         DBManager.init(new File("DB.properties"));
 
-        // auto commit ==> default is true
+        // auto commit ==> default is false
         //DBManager.setAutoCommit(false);
 
         // connect to database...
-        DBWorker.wakeUp();
+        DBWorker dbWorker = DBManager.getDBWorker();
 
         Book book = new Book();
         book.setName("奇异人生");
         book.setPrice(68);
 
         // insert a new book in database...
-        //DBWorker.insert(book);
+        //dbWorker.insert(book);
 
         // put whole table in a file...
-        //DBWorker.putTableInFile("book", "Z:/book.txt");
+        //dbWorker.putTableInFile("book", "Z:/book.txt");
 
         // query a book...
-        book = DBWorker.query(book, Book.class);
+        book = dbWorker.query(book, Book.class);
         System.out.println(book);
 
         // release resources and commit transaction...
-        DBWorker.sleep();
+        dbWorker.sleep();
     }
 }
 

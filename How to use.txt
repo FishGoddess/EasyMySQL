@@ -22,58 +22,56 @@
 *     the original information of DB.properties: (without =)
 *     (you can copy these words to DB.properties.)
 ===================================
-# ip of mysql database host
-databaseHost=127.0.0.1
+# Mysql url (Necessary)
+url=jdbc:mysql://127.0.0.1:3306/java?useSSL=false
 
-# which database you will use
-usingDatabase=workers
+# username (Necessary)
+username=root
 
-# mysql user name
-user=root
-
-# mysql password
+# password (Necessary)
 password=1997
 ===================================
 *     you can update this information by invoking DBManager.update().
+*     more parameters infomation in params.md! Or you could find them in dpcp website!
 *
 * 3: now you can use the methods in class DBWorker
-*     At first, you should invoke DBWorker.wakeUp() to connect to database!
+*     At first, you should invoke DBWorker dbWorker = DBManager.getDBWorker(); to connect to database!
 *     After you use, you should release resources by invoking DBWorker.sleep()!
 *     1: insert data
 *           // insert a new book in database...
-*           DBWorker.insert(book);
+*           dbWorker.insert(book);
 *
 *     2: delete data
 *           // delete the row in goods_cates, which cate_name is "..."
-*           DBWorker.delete("goods_cates", "cate_name = \"...\"");
+*           dbWorker.delete("goods_cates", "cate_name = \"...\"");
 *
 *     3: update data
 *           // update oldBook to newBook
-*           int count = DBWorker.update(oldBook, newBook);
+*           int count = dbWorker.update(oldBook, newBook);
 *           System.out.println(count); // retun the count of effected rows
 *
 *     4: query data
 *           // query one row in goods_cates, which id is 4
-*           List<String> list = DBWorker.queryStrings("goods_cates", "id = 4");
-*           //List<Map> list = DBWorker.queryMaps("goods_cates", "id = 4");
+*           List<String> list = dbWorker.queryStrings("goods_cates", "id = 4");
+*           //List<Map> list = dbWorker.queryMaps("goods_cates", "id = 4");
 *           for (String s : list) // for (Map m : list)
 *           {
 *               System.out.println(s); // print the string obtained
 *           }
 *           // find data by targetBook, then return book object
-*           Book book = DBWorker.query(targetBook, Book.class);
+*           Book book = dbWorker.query(targetBook, Book.class);
 *
 *     5: save a whole data table to disk
 *           // this will put the whole table in a file and store to disk.
 *           // for example, save test table as test.txt and store to Z:/
-*           DBWorker.putTableInFile("test", "Z:/test.txt");
+*           dbWorker.putTableInFile("test", "Z:/test.txt");
 *
 * here is some common operation, if you need more API, get them in the javadoc!
 *
 *******************************************************************************************************
 // an example, it can run immediately, but you may rename your code file to Examples.java
 
-package com.fish.EasyMysql;
+package com.fish.core;
 
 import java.util.List;
 
@@ -88,24 +86,24 @@ public class Examples
         //DBManager.setAutoCommit(false);
 
         // connect to database...
-        DBWorker.wakeUp();
+        DBWorker dbWorker = DBManager.getDBWorker();
 
         Book book = new Book();
         book.setName("奇异人生");
         book.setPrice(68);
 
         // insert a new book in database...
-        //DBWorker.insert(book);
+        //dbWorker.insert(book);
 
         // put whole table in a file...
-        //DBWorker.putTableInFile("book", "Z:/book.txt");
+        //dbWorker.putTableInFile("book", "Z:/book.txt");
 
         // query a book...
-        book = DBWorker.query(book, Book.class);
+        book = dbWorker.query(book, Book.class);
         System.out.println(book);
 
         // release resources and commit transaction...
-        DBWorker.sleep();
+        dbWorker.sleep();
     }
 }
 

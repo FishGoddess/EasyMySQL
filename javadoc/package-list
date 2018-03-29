@@ -1,1 +1,3 @@
-com.fish.EasyMysql
+com.fish.core
+com.fish.exception
+com.fish.log

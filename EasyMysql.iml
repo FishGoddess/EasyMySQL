@@ -18,5 +18,8 @@
     </orderEntry>
     <orderEntry type="library" name="AutoMySQL-v1.2" level="project" />
     <orderEntry type="library" name="mysql-connector-java-5.1.42-bin" level="project" />
+    <orderEntry type="library" name="commons-dbcp2-2.2.0" level="project" />
+    <orderEntry type="library" name="commons-pool2-2.5.0" level="project" />
+    <orderEntry type="library" name="commons-logging-1.2" level="project" />
   </component>
 </module>
