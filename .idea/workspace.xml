@@ -8,7 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4d6c46e6-1f87-4b19-a378-baa98a8664b4" name="默认的" comment="第七次大更新：重构了整个框架，并且加入了数据库连接池的功能！">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EasyMysql_jar/EasyMysql.jar" afterPath="$PROJECT_DIR$/out/artifacts/EasyMysql_jar/EasyMysql.jar" />
+      <change beforePath="$PROJECT_DIR$/EasyMysql-v2.2.rar" afterPath="$PROJECT_DIR$/EasyMysql-v2.2.rar" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,45 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DBManager.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/fish/core/DBManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-              <folding>
-                <element signature="method#init#0;class#DBManager#0" expanded="false" />
-                <element signature="method#checkIfInited#0;class#DBManager#0" expanded="false" />
-                <element signature="method#update#0;class#DBManager#0" expanded="false" />
-                <element signature="method#update#1;class#DBManager#0" expanded="false" />
-                <element signature="method#getConnection#0;class#DBManager#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBWorker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/fish/core/DBWorker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="473" column="7" lean-forward="false" selection-start-line="473" selection-start-column="7" selection-end-line="473" selection-end-column="7" />
-              <folding>
-                <element signature="method#getSqlOrder#0;class#DBWorker#0" expanded="false" />
-                <element signature="method#sleep#0;class#DBWorker#0" expanded="false" />
-                <element signature="method#commit#0;class#DBWorker#0" expanded="false" />
-                <element signature="method#work#1;class#DBWorker#0" expanded="false" />
-                <element signature="method#workQuery#1;class#DBWorker#0" expanded="false" />
-                <element signature="method#delete#0;class#DBWorker#0" expanded="false" />
-                <element signature="method#queryStrings#0;class#DBWorker#0" expanded="false" />
-                <element signature="method#queryMaps#0;class#DBWorker#0" expanded="false" />
-                <element signature="method#query#0;class#DBWorker#0" expanded="false" />
-                <element signature="method#putTableInFile#0;class#DBWorker#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -100,7 +63,6 @@
         <option value="$PROJECT_DIR$/src/com/fish/EasyMysql/DBWorker.java" />
         <option value="$PROJECT_DIR$/src/com/fish/exception/UninitializedException.java" />
         <option value="$PROJECT_DIR$/src/com/fish/EasyMysql/DBManager.java" />
-        <option value="$PROJECT_DIR$/src/com/fish/core/DBWorker.java" />
         <option value="$PROJECT_DIR$/src/test/main.java" />
         <option value="$PROJECT_DIR$/src/com/fish/log/Logger.java" />
         <option value="$PROJECT_DIR$/src/test/Main.java" />
@@ -108,8 +70,9 @@
         <option value="$PROJECT_DIR$/params.md" />
         <option value="$PROJECT_DIR$/使用说明.txt" />
         <option value="$PROJECT_DIR$/How to use.txt" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/fish/core/DBManager.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/com/fish/core/DBWorker.java" />
       </list>
     </option>
   </component>
@@ -329,7 +292,7 @@
       <workItem from="1521960908017" duration="125000" />
       <workItem from="1521966932086" duration="110000" />
       <workItem from="1522318617706" duration="925000" />
-      <workItem from="1522320625756" duration="8785000" />
+      <workItem from="1522320625756" duration="9497000" />
     </task>
     <task id="LOCAL-00001" summary="默认的">
       <created>1519447463277</created>
@@ -478,15 +441,21 @@
       <option name="project" value="LOCAL" />
       <updated>1522331287762</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="第七次大更新：重构了整个框架，并且加入了数据库连接池的功能！">
+      <created>1522331325655</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1522331325655</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58762000" />
+    <option name="totallyTimeSpent" value="59474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -501,7 +470,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13965885" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13965885" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -578,7 +547,6 @@
           <caret line="479" column="56" lean-forward="false" selection-start-line="479" selection-start-column="56" selection-end-line="479" selection-end-column="56" />
           <folding>
             <element signature="method#getSqlOrder#0;class#DBWorker#0" expanded="false" />
-            <element signature="method#sleep#0;class#DBWorker#0" expanded="false" />
             <element signature="method#commit#0;class#DBWorker#0" expanded="false" />
             <element signature="method#work#1;class#DBWorker#0" expanded="false" />
             <element signature="method#workQuery#1;class#DBWorker#0" expanded="false" />
@@ -611,7 +579,6 @@
           <caret line="479" column="56" lean-forward="false" selection-start-line="479" selection-start-column="56" selection-end-line="479" selection-end-column="56" />
           <folding>
             <element signature="method#getSqlOrder#0;class#DBWorker#0" expanded="false" />
-            <element signature="method#sleep#0;class#DBWorker#0" expanded="false" />
             <element signature="method#commit#0;class#DBWorker#0" expanded="false" />
             <element signature="method#work#1;class#DBWorker#0" expanded="false" />
             <element signature="method#workQuery#1;class#DBWorker#0" expanded="false" />
@@ -644,7 +611,6 @@
           <caret line="479" column="56" lean-forward="false" selection-start-line="479" selection-start-column="56" selection-end-line="479" selection-end-column="56" />
           <folding>
             <element signature="method#getSqlOrder#0;class#DBWorker#0" expanded="false" />
-            <element signature="method#sleep#0;class#DBWorker#0" expanded="false" />
             <element signature="method#commit#0;class#DBWorker#0" expanded="false" />
             <element signature="method#work#1;class#DBWorker#0" expanded="false" />
             <element signature="method#workQuery#1;class#DBWorker#0" expanded="false" />
@@ -677,7 +643,6 @@
           <caret line="479" column="56" lean-forward="false" selection-start-line="479" selection-start-column="56" selection-end-line="479" selection-end-column="56" />
           <folding>
             <element signature="method#getSqlOrder#0;class#DBWorker#0" expanded="false" />
-            <element signature="method#sleep#0;class#DBWorker#0" expanded="false" />
             <element signature="method#commit#0;class#DBWorker#0" expanded="false" />
             <element signature="method#work#1;class#DBWorker#0" expanded="false" />
             <element signature="method#workQuery#1;class#DBWorker#0" expanded="false" />
@@ -696,7 +661,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#getSqlOrder#0;class#DBWorker#0" expanded="false" />
-            <element signature="method#sleep#0;class#DBWorker#0" expanded="false" />
             <element signature="method#commit#0;class#DBWorker#0" expanded="false" />
             <element signature="method#work#1;class#DBWorker#0" expanded="false" />
             <element signature="method#workQuery#1;class#DBWorker#0" expanded="false" />
@@ -743,7 +707,6 @@
           <caret line="136" column="21" lean-forward="false" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="21" />
           <folding>
             <element signature="method#getSqlOrder#0;class#DBWorker#0" expanded="false" />
-            <element signature="method#sleep#0;class#DBWorker#0" expanded="false" />
             <element signature="method#commit#0;class#DBWorker#0" expanded="false" />
             <element signature="method#work#1;class#DBWorker#0" expanded="false" />
             <element signature="method#workQuery#1;class#DBWorker#0" expanded="false" />
@@ -776,7 +739,6 @@
           <caret line="354" column="6" lean-forward="false" selection-start-line="354" selection-start-column="6" selection-end-line="354" selection-end-column="6" />
           <folding>
             <element signature="method#getSqlOrder#0;class#DBWorker#0" expanded="false" />
-            <element signature="method#sleep#0;class#DBWorker#0" expanded="false" />
             <element signature="method#commit#0;class#DBWorker#0" expanded="false" />
             <element signature="method#work#1;class#DBWorker#0" expanded="false" />
             <element signature="method#workQuery#1;class#DBWorker#0" expanded="false" />
@@ -809,7 +771,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#getSqlOrder#0;class#DBWorker#0" expanded="false" />
-            <element signature="method#sleep#0;class#DBWorker#0" expanded="false" />
             <element signature="method#commit#0;class#DBWorker#0" expanded="false" />
             <element signature="method#work#1;class#DBWorker#0" expanded="false" />
             <element signature="method#workQuery#1;class#DBWorker#0" expanded="false" />
@@ -842,7 +803,6 @@
           <caret line="257" column="31" lean-forward="true" selection-start-line="257" selection-start-column="31" selection-end-line="257" selection-end-column="31" />
           <folding>
             <element signature="method#getSqlOrder#0;class#DBWorker#0" expanded="false" />
-            <element signature="method#sleep#0;class#DBWorker#0" expanded="false" />
             <element signature="method#commit#0;class#DBWorker#0" expanded="false" />
             <element signature="method#work#1;class#DBWorker#0" expanded="false" />
             <element signature="method#workQuery#1;class#DBWorker#0" expanded="false" />
@@ -1008,8 +968,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="691">
-            <caret line="163" column="4" lean-forward="false" selection-start-line="163" selection-start-column="4" selection-end-line="163" selection-end-column="4" />
+          <first_editor relative-caret-position="475">
+            <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1018,11 +978,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fish/core/DBWorker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="473" column="7" lean-forward="false" selection-start-line="473" selection-start-column="7" selection-end-line="473" selection-end-column="7" />
+        <state relative-caret-position="202">
+          <caret line="94" column="37" lean-forward="false" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
           <folding>
             <element signature="method#getSqlOrder#0;class#DBWorker#0" expanded="false" />
-            <element signature="method#sleep#0;class#DBWorker#0" expanded="false" />
             <element signature="method#commit#0;class#DBWorker#0" expanded="false" />
             <element signature="method#work#1;class#DBWorker#0" expanded="false" />
             <element signature="method#workQuery#1;class#DBWorker#0" expanded="false" />
