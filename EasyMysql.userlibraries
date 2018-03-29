@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="AutoMySQL-v1.2">
+    <archive path="E:/JavaProject/EasyMysql/libs/AutoMySQL-v1.2.jar" />
+  </library>
+  <library name="commons-dbcp2-2.2.0">
+    <archive path="E:/JavaProject/EasyMysql/libs/commons-dbcp2-2.2.0.jar" />
+  </library>
+  <library name="commons-logging-1.2">
+    <archive path="E:/JavaProject/EasyMysql/libs/commons-logging-1.2.jar" />
+  </library>
+  <library name="commons-pool2-2.5.0">
+    <archive path="E:/JavaProject/EasyMysql/libs/commons-pool2-2.5.0.jar" />
+  </library>
+  <library name="mysql-connector-java-5.1.42-bin" />
+</eclipse-userlibraries>
+

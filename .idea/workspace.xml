@@ -6,9 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d6c46e6-1f87-4b19-a378-baa98a8664b4" name="默认的" comment="第八次更新：修正了部分 javadoc 错误">
+    <list default="true" id="4d6c46e6-1f87-4b19-a378-baa98a8664b4" name="默认的" comment="第八次更新：项目转到 eclipse 平台，同时兼顾 idea！">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EasyMysql_jar/EasyMysql.jar" afterPath="$PROJECT_DIR$/out/artifacts/EasyMysql_jar/EasyMysql.jar" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,28 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="DBWorker.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/fish/core/DBWorker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="256" column="128" lean-forward="false" selection-start-line="256" selection-start-column="128" selection-end-line="256" selection-end-column="128" />
-              <folding>
-                <element signature="method#getSqlOrder#0;class#DBWorker#0" expanded="false" />
-                <element signature="method#commit#0;class#DBWorker#0" expanded="false" />
-                <element signature="method#work#1;class#DBWorker#0" expanded="false" />
-                <element signature="method#workQuery#1;class#DBWorker#0" expanded="false" />
-                <element signature="method#delete#0;class#DBWorker#0" expanded="false" />
-                <element signature="method#queryStrings#0;class#DBWorker#0" expanded="false" />
-                <element signature="method#queryMaps#0;class#DBWorker#0" expanded="false" />
-                <element signature="method#query#0;class#DBWorker#0" expanded="false" />
-                <element signature="method#putTableInFile#0;class#DBWorker#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -313,7 +291,7 @@
       <workItem from="1521966932086" duration="110000" />
       <workItem from="1522318617706" duration="925000" />
       <workItem from="1522320625756" duration="9717000" />
-      <workItem from="1522340572069" duration="310000" />
+      <workItem from="1522340572069" duration="381000" />
     </task>
     <task id="LOCAL-00001" summary="默认的">
       <created>1519447463277</created>
@@ -483,15 +461,21 @@
       <option name="project" value="LOCAL" />
       <updated>1522340829706</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="第八次更新：项目转到 eclipse 平台，同时兼顾 idea！">
+      <created>1522340925653</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1522340925653</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60004000" />
+    <option name="totallyTimeSpent" value="60075000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -506,7 +490,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.141258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.141258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -581,7 +565,8 @@
     <MESSAGE value="第六次大更新：工具" />
     <MESSAGE value="第七次大更新：重构了整个框架，并且加入了数据库连接池的功能！" />
     <MESSAGE value="第八次更新：修正了部分 javadoc 错误" />
-    <option name="LAST_COMMIT_MESSAGE" value="第八次更新：修正了部分 javadoc 错误" />
+    <MESSAGE value="第八次更新：项目转到 eclipse 平台，同时兼顾 idea！" />
+    <option name="LAST_COMMIT_MESSAGE" value="第八次更新：项目转到 eclipse 平台，同时兼顾 idea！" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

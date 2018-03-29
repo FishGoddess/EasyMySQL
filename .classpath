@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="libs/mysql-connector-java-5.1.42-bin.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/AutoMySQL-v1.2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/mysql-connector-java-5.1.42-bin"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/commons-dbcp2-2.2.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/commons-pool2-2.5.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/commons-logging-1.2"/>
+	<classpathentry kind="output" path="out/production/EasyMysql"/>
+</classpath>

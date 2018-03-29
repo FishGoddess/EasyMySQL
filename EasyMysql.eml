@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/out/test/EasyMysql"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="mysql-connector-java-5.1.42-bin.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/libs/mysql-connector-java-5.1.42-bin.jar!/"/>
+	</lib>
+	<levels>
+		<level name="AutoMySQL-v1.2" value="project"/>
+		<level name="mysql-connector-java-5.1.42-bin" value="project"/>
+		<level name="commons-dbcp2-2.2.0" value="project"/>
+		<level name="commons-pool2-2.5.0" value="project"/>
+		<level name="commons-logging-1.2" value="project"/>
+	</levels>
+</component>
