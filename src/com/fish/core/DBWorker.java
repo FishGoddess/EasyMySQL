@@ -12,11 +12,11 @@ import java.util.Map;
 
 /**
  * 一些数据库常用操作函数
- *
+ * <p>
  * (CURD, you know, just some jobs about database...)
  *
  * @author Fish
- * */
+ */
 public final class DBWorker
 {
     /**
@@ -33,25 +33,25 @@ public final class DBWorker
 
     /**
      * 获得数据库连接
-     *
+     * <p>
      * (database's connection)
-     * */
+     */
     private Connection connection = null;
 
     /**
      * 数据库预处理语句
-     *
+     * <p>
      * (database's worker)
-     * */
+     */
     private PreparedStatement ps = null;
 
     /**
      * 从文件中读取 SQL 指令语句，返回成 String
-     *
+     * <p>
      * (read sql from a file)
      *
      * @return 返回得到的 SQL 语句 (return sql)
-     * */
+     */
     private String getSqlOrder(File sqlFile)
     {
         StringBuilder sql = new StringBuilder();
@@ -84,7 +84,7 @@ public final class DBWorker
      * 干完活，不用他的话就让他睡觉休息一会吧！
      * 并且会提交事务，所以强烈建议使用这个方法代替直接的提交
      * 关闭连接，释放资源！建议在执行 DBManager.update(...) 之前先释放现有资源！
-     *
+     * <p>
      * (finish the jobs, let him have a break if you don't need him any more!)
      * (this method will commit transaction finally)
      * (close somethings and release resources! Invoke this method before invoking DBManager.update(...)!)
@@ -117,9 +117,9 @@ public final class DBWorker
 
     /**
      * 提交事务
-     *
+     * <p>
      * (commit transaction)
-     * */
+     */
     public void commit()
     {
         try
@@ -151,7 +151,7 @@ public final class DBWorker
      * @param sqlFile 要被执行的 sql 语句集合文件，包含一堆数据库执行语句
      *                (a file containing many sql orders that you want it to do)
      * @return 影响的行数，如果返回 -1，表示出现异常 (effected rows, -1 means error!)
-     * */
+     */
     public int work(File sqlFile)
     {
         return work(getSqlOrder(sqlFile));
@@ -231,9 +231,9 @@ public final class DBWorker
      * (insert data, depending on the value of @Table and @Column)
      *
      * @param data 插入对象，这必须是一个标准 javabean 对象，
-     *               在类上使用 @Table 注解，并传入对应的表名，而对应的列名则是通过 @Column 来获得
-     *               (orm object, this a standar javabean, also, it has @Table whose value is the table name,
-     *               and @Column with the column of this table)
+     *             在类上使用 @Table 注解，并传入对应的表名，而对应的列名则是通过 @Column 来获得
+     *             (orm object, this a standar javabean, also, it has @Table whose value is the table name,
+     *             and @Column with the column of this table)
      * @return 影响的行数，如果返回 -1，表示出现异常 (effected rows, -1 means error!)
      */
     public int insert(Object data)
@@ -243,7 +243,7 @@ public final class DBWorker
 
     /**
      * 从数据库删除一行数据
-     *
+     * <p>
      * (delete some data)
      *
      * @param tableName 要删除内容的表名 (table name)
@@ -292,18 +292,18 @@ public final class DBWorker
 
     /**
      * 更新表数据，根据传入对象的 @Table 和 @Column 值来更新
-     *
+     * <p>
      * (update data, depending on the value of @Table and @Column)
      *
      * @param oldData 旧的对象，这必须是一个标准 javabean 对象，
-     *               在类上使用 @Table 注解，并传入对应的表名，而对应的列名则是通过 @Column 来获得，
-     *               并且这个对象必须进行赋值，否则无法找到对应的数据，有可能导致整张表被覆盖
-     *               (old object, this a standar javabean, also, it has @Table whose value is the table name,
-     *               and @Column with the column of this table, and its field must be not null!)
+     *                在类上使用 @Table 注解，并传入对应的表名，而对应的列名则是通过 @Column 来获得，
+     *                并且这个对象必须进行赋值，否则无法找到对应的数据，有可能导致整张表被覆盖
+     *                (old object, this a standar javabean, also, it has @Table whose value is the table name,
+     *                and @Column with the column of this table, and its field must be not null!)
      * @param newData 新的对象，这必须是一个标准 javabean 对象，
-     *               在类上使用 @Table 注解，并传入对应的表名，而对应的列名则是通过 @Column 来获得
-     *               (old object, this a standar javabean, also, it has @Table whose value is the table name,
-     *               and @Column with the column of this table)
+     *                在类上使用 @Table 注解，并传入对应的表名，而对应的列名则是通过 @Column 来获得
+     *                (old object, this a standar javabean, also, it has @Table whose value is the table name,
+     *                and @Column with the column of this table)
      * @return 影响的行数，如果返回 -1，表示出现异常 (effected rows, -1 means error!)
      */
     public int update(Object oldData, Object newData)
@@ -313,7 +313,7 @@ public final class DBWorker
 
     /**
      * 向数据库查询数据
-     *
+     * <p>
      * (query some data)
      *
      * @param tableName 要查询内容的表名 table name
@@ -340,7 +340,7 @@ public final class DBWorker
 
     /**
      * 向数据库查询数据表
-     *
+     * <p>
      * (query some data)
      *
      * @param tableName 要查询内容的表名 (table name)
@@ -353,7 +353,7 @@ public final class DBWorker
 
     /**
      * 向数据库查询数据
-     *
+     * <p>
      * (query some data)
      *
      * @param tableName 要查询内容的表名 (table name)
@@ -364,7 +364,7 @@ public final class DBWorker
      *                  这里需要注意，如果传入 "1" 或 "ALL"，就会查询整份表，把整份表包装到字符串中
      *                  (query data depending on your selection)
      * @return 返回查询到的结果，HashMap 封装，可通过键值获取到具体的值，键值就是表的列名
-     *         (the key is the column of this table)
+     * (the key is the column of this table)
      */
     public List<Map> queryMaps(String tableName, String selection)
     {
@@ -415,12 +415,12 @@ public final class DBWorker
 
     /**
      * 向数据库查询数据表
-     *
+     * <p>
      * (query some data)
      *
      * @param tableName 要查询内容的表名 (table name)
      * @return 返回查询到的结果，HashMap 封装，可通过键值获取到具体的值，键值就是表的列名
-     *         (the key is the column of this table)
+     * (the key is the column of this table)
      */
     public List<Map> queryMaps(String tableName)
     {
@@ -429,17 +429,17 @@ public final class DBWorker
 
     /**
      * 获取表数据，根据传入对象的 @Table 和 @Column 值来查询
-     *
+     * <p>
      * (query data, depending on the value of @Table and @Column)
      *
-     * @param data 查询依据对象，这必须是一个标准 javabean 对象，
-     *               在类上使用 @Table 注解，并传入对应的表名，而对应的列名则是通过 @Column 来获得
-     *               (orm object, this a standar javabean, also, it has @Table whose value is the table name,
-     *               and @Column with the column of this table)
+     * @param data  查询依据对象，这必须是一个标准 javabean 对象，
+     *              在类上使用 @Table 注解，并传入对应的表名，而对应的列名则是通过 @Column 来获得
+     *              (orm object, this a standar javabean, also, it has @Table whose value is the table name,
+     *              and @Column with the column of this table)
      * @param clazz 这个实体类的类型，T 就是具体类型，比如 Book.class
      *              (the type of this entity, T is real type, such as Book.class)
-     * @param <T> T 就是具体类型，比如 Book.class
-     *            (T is real type, such as Book.class)
+     * @param <T>   T 就是具体类型，比如 Book.class
+     *              (T is real type, such as Book.class)
      * @return 返回实体对象 (return a entity object)
      */
     public <T> T query(Object data, Class<T> clazz)
@@ -473,14 +473,14 @@ public final class DBWorker
 
     /**
      * 将查询到的一整个表保存进文件中
-     *
+     * <p>
      * (save the whole table into a file)
      *
      * @param tableName 要查询的一整份表 (table name)
-     * @param filePath 文件保存路径，包括文件名，合法的取值：Z:/table.txt
-     *                 (saving path, including file name, like "Z:/table.txt")
+     * @param filePath  文件保存路径，包括文件名，合法的取值：Z:/table.txt
+     *                  (saving path, including file name, like "Z:/table.txt")
      * @return true 保存成功 (Done!)，false 保存失败 (you failed!)
-     * */
+     */
     public boolean putTableInFile(String tableName, String filePath)
     {
         try
