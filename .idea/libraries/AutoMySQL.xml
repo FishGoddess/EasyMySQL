@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="AutoMySQL">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/AutoMySQL.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
