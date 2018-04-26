@@ -59,7 +59,7 @@ password=1997
 *               System.out.println(s); // print the string obtained
 *           }
 *           // find data by targetBook, then return book object
-*           Book book = dbWorker.query(targetBook, Book.class);
+*           com.fish.Book book = dbWorker.query(targetBook, com.fish.Book.class);
 *
 *     5: save a whole data table to disk
 *           // this will put the whole table in a file and store to disk.
@@ -88,7 +88,7 @@ public class Examples
         // connect to database...
         DBWorker dbWorker = DBManager.getDBWorker();
 
-        Book book = new Book();
+        com.fish.Book book = new com.fish.Book();
         book.setName("奇异人生");
         book.setPrice(68);
 
@@ -99,7 +99,7 @@ public class Examples
         //dbWorker.putTableInFile("book", "Z:/book.txt");
 
         // query a book...
-        book = dbWorker.query(book, Book.class);
+        book = dbWorker.query(book, com.fish.Book.class);
         System.out.println(book);
 
         // release resources and commit transaction...

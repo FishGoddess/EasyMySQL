@@ -54,7 +54,7 @@ password=1997
 *               System.out.println(s); // 取得字符串打印出来
 *           }
 *           // 通过 targetBook 找到数据，并返回 book 对象
-*           Book book = dbWorker.query(targetBook, Book.class);
+*           com.fish.Book book = dbWorker.query(targetBook, com.fish.Book.class);
 *
 *     5）将数据表保存到文件中
 *           // 将一整份表都存进文件中，比如将 test 表保存进 Z:/test.txt
@@ -82,7 +82,7 @@ public class Examples
         // connect to database...
         DBWorker dbWorker = DBManager.getDBWorker();
 
-        Book book = new Book();
+        com.fish.Book book = new com.fish.Book();
         book.setName("奇异人生");
         book.setPrice(68);
 
@@ -93,7 +93,7 @@ public class Examples
         //dbWorker.putTableInFile("book", "Z:/book.txt");
 
         // query a book...
-        book = dbWorker.query(book, Book.class);
+        book = dbWorker.query(book, com.fish.Book.class);
         System.out.println(book);
 
         // release resources and commit transaction...

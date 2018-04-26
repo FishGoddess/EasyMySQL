@@ -12,7 +12,7 @@ or you can download EasyMysql.rar, which is jars
 
 ### 下面演示了结合 AutoMySQL 小框架的查询操作：
 #### if you use AutoMySQL and this jar:
-##### （代码中的 Book.java 在源码中有提供）
+##### （代码中的 com.fish.Book.java 在源码中有提供）
     import com.fish.core.DBManager;
     import com.fish.core.DBWorker;
     
@@ -31,7 +31,7 @@ or you can download EasyMysql.rar, which is jars
             // connect to database...
             DBWorker dbWorker = DBManager.getDBWorker();
     
-            Book book = new Book();
+            com.fish.Book book = new com.fish.Book();
             book.setName("奇异人生");
             book.setPrice(68);
     
@@ -42,7 +42,7 @@ or you can download EasyMysql.rar, which is jars
             //dbWorker.putTableInFile("book", "Z:/book.txt");
     
             // query a book...
-            book = dbWorker.query(book, Book.class);
+            book = dbWorker.query(book, com.fish.Book.class);
             System.out.println(book);
     
             // release resources and commit transaction...
@@ -63,8 +63,10 @@ if you use DBManager.update(File) to update infomaton of database, you will get 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ***update*** !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ### *2018-4-26:*<br/>
-修复了一个查询的隐藏 bug。<br/>
-fix a hidden bug...
+1. 修复了一个查询的隐藏 bug。<br/>
+(fix a hidden bug...)<br/>
+2. 新增了一个返回对象集合的方法，现在可以一次获取多个 bean 了。<br/>
+(add a new method which can get many beans...)<br/>
 
 
 ### *2018-3-29:*<br/>

@@ -1,4 +1,4 @@
-
+package com.fish;
 
 // test class
 
@@ -15,10 +15,10 @@ public class Book
     @Column("id")
     private Integer id = null;
 
-    @Column("name")
+    //@Column("name")
     private String name = null;
 
-    @Column("price")
+    //@Column("price")
     private Integer price = null;
 
     public Book()
@@ -70,7 +70,7 @@ public class Book
     @Override
     public String toString()
     {
-        return "Book{" +
+        return "com.fish.Book{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", price=" + price +

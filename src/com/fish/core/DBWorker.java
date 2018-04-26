@@ -328,7 +328,7 @@ public final class DBWorker
     public List<String> queryStrings(String tableName, String selection)
     {
         List<String> result = new ArrayList<>();
-        List<Map> maps = queryMaps(tableName, selection);
+        List<Map<String, Object>> maps = queryMaps(tableName, selection);
 
         for (int i = 0; i < maps.size(); i++)
         {
@@ -366,9 +366,9 @@ public final class DBWorker
      * @return 返回查询到的结果，HashMap 封装，可通过键值获取到具体的值，键值就是表的列名
      * (the key is the column of this table)
      */
-    public List<Map> queryMaps(String tableName, String selection)
+    public List<Map<String, Object>> queryMaps(String tableName, String selection)
     {
-        List<Map> result = new ArrayList<>();
+        List<Map<String, Object>> result = new ArrayList<>();
         StringBuilder sql = new StringBuilder("SELECT * FROM ");
         sql.append(tableName);
 
@@ -422,7 +422,7 @@ public final class DBWorker
      * @return 返回查询到的结果，HashMap 封装，可通过键值获取到具体的值，键值就是表的列名
      * (the key is the column of this table)
      */
-    public List<Map> queryMaps(String tableName)
+    public List<Map<String, Object>> queryMaps(String tableName)
     {
         return queryMaps(tableName, "ALL");
     }
@@ -436,10 +436,10 @@ public final class DBWorker
      *              在类上使用 @Table 注解，并传入对应的表名，而对应的列名则是通过 @Column 来获得
      *              (orm object, this a standar javabean, also, it has @Table whose value is the table name,
      *              and @Column with the column of this table)
-     * @param clazz 这个实体类的类型，T 就是具体类型，比如 Book.class
-     *              (the type of this entity, T is real type, such as Book.class)
-     * @param <T>   T 就是具体类型，比如 Book.class
-     *              (T is real type, such as Book.class)
+     * @param clazz 这个实体类的类型，T 就是具体类型，比如 com.fish.Book.class
+     *              (the type of this entity, T is real type, such as com.fish.Book.class)
+     * @param <T>   T 就是具体类型，比如 com.fish.Book.class
+     *              (T is real type, such as com.fish.Book.class)
      * @return 返回实体对象 (return a entity object)
      */
     public <T> T query(Object data, Class<T> clazz)
@@ -469,6 +469,24 @@ public final class DBWorker
         }
 
         return MySQL.getBeanByMap(map, clazz);
+    }
+
+    /**
+     * 向数据库查询数据表
+     * <p>
+     * (query some data)
+     *
+     * @param tableName 要查询内容的表名 (table name)
+     * @param clazz     这个实体类的类型，T 就是具体类型，比如 com.fish.Book.class
+     *                  (the type of this entity, T is real type, such as com.fish.Book.class)
+     * @param <T>       T 就是具体类型，比如 com.fish.Book.class
+     *                  (T is real type, such as com.fish.Book.class)
+     * @return 返回查询到的结果，List 封装，可直接获取对象集合
+     * (you got many beans one time...)
+     */
+    public <T> List<T> queryAll(String tableName, Class<T> clazz)
+    {
+        return MySQL.getBeansByMaps(queryMaps(tableName), clazz);
     }
 
     /**
