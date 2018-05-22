@@ -1,8 +1,8 @@
 package com.fish.exception;
 
 /**
- * 没有初始化异常类
- * (Uninitialized Exception)
+ * 没有初始化异常类<br>
+ * (Uninitialized Exception)<br>
  *
  * @author Fish
  * */

@@ -96,6 +96,22 @@ public class Examples
         book = dbWorker.query(book, com.fish.Book.class);
         System.out.println(book);
 
+        List<Object> books = new ArrayList<>();
+        books.add(new Book("蒙太奇手法", 129));
+        books.add(new Book("音乐素养与教养", 72));
+        books.add(new Book("中国为什么这么强大", 999));
+        books.add(new Book("看世界", 69));
+        books.add(new Book("读者", 12));
+
+        // insert many books...
+        dbWorker.insertAll(books.toArray());
+
+        // batch
+        dbWorker.workBatch(new String[] {
+                "INSERT INTO book(name, price) VALUES('论三国', 23), ('孙子兵法', 24);",
+                "INSERT INTO book(name, price) VALUE('世界之大宇宙之小', 89);"
+        });
+
         // release resources and commit transaction...
         dbWorker.sleep();
     }

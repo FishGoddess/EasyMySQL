@@ -16,9 +16,9 @@ import java.util.Map;
 import java.util.Properties;
 
 /**
- * 管理 MySql 数据库的连接信息
+ * 管理 MySql 数据库的连接信息<br>
  *
- * (some infomation about database's connection)
+ * (some infomation about database's connection)<br>
  *
  * @author Fish
  * */
@@ -53,20 +53,20 @@ public final class DBManager
     private static volatile DataSource dataSource = null;
 
     /**
-     * 不需要存在这个类的对象，只需要调用所需的方法即可
+     * 不需要存在这个类的对象，只需要调用所需的方法即可<br>
      *
-     * (single dog, single dog, single all the way! Which song you are reminded of?)
+     * (single dog, single dog, single all the way! Which song you are reminded of?)<br>
      * */
     private DBManager()
     {}
 
     /**
-     * 初始化数据库管理器
+     * 初始化数据库管理器<br>
      *
-     * (init this guy)
+     * (init this guy)<br>
      *
-     * @param path 指定配置文件的路径 (the home of config file)
-     * @return true 初始化成功 (good job!)， false 初始化失败 (you failed!)
+     * @param path 指定配置文件的路径 (the home of config file)<br>
+     * @return true 初始化成功 (good job!)， false 初始化失败 (you failed!)<br>
      * */
     public static synchronized boolean init(File path)
     {
@@ -102,11 +102,11 @@ public final class DBManager
     }
 
     /**
-     * 检查是否已经初始化，否则抛出未初始化异常
+     * 检查是否已经初始化，否则抛出未初始化异常<br>
      *
-     * (check if inited, or throws UninitializedException)
+     * (check if inited, or throws UninitializedException)<br>
      *
-     * @throws UninitializedException 未初始化异常 (UninitializedException)
+     * @throws UninitializedException 未初始化异常 (UninitializedException)<br>
      * */
     private static synchronized void checkIfInited() throws UninitializedException
     {
@@ -118,15 +118,15 @@ public final class DBManager
     }
 
     /**
-     * 根据指定文件更新数据库管理器的配置信息
-     * 在调用该方法之前，建议先调用 DBWorker.sleep() 释放资源！
+     * 根据指定文件更新数据库管理器的配置信息<br>
+     * 在调用该方法之前，建议先调用 DBWorker.sleep() 释放资源！<br>
      *
-     * (update connection depending on what config you give)
-     * (Maybe you should invoke DBWorker.sleep() before invoking this method!)
+     * (update connection depending on what config you give)<br>
+     * (Maybe you should invoke DBWorker.sleep() before invoking this method!)<br>
      *
-     * @param path 指定配置文件的路径 (the home of config file)
-     * @throws UninitializedException 未初始化异常 (UninitializedException)
-     * @return true 更新成功 (Done!)， false 更新失败 (you failed!)
+     * @param path 指定配置文件的路径 (the home of config file)<br>
+     * @throws UninitializedException 未初始化异常 (UninitializedException)<br>
+     * @return true 更新成功 (Done!)， false 更新失败 (you failed!)<br>
      * */
     public static synchronized boolean update(File path)
     {
@@ -140,14 +140,14 @@ public final class DBManager
     }
 
     /**
-     * 更新数据库管理器的配置信息，按照第一次初始化的路径进行更新
-     * 在调用该方法之前，建议先调用 DBWorker.sleep() 释放资源！
+     * 更新数据库管理器的配置信息，按照第一次初始化的路径进行更新<br>
+     * 在调用该方法之前，建议先调用 DBWorker.sleep() 释放资源！<br>
      *
-     * (update connection using the old config file)
-     * (Maybe you should invoke DBWorker.sleep() before invoking this method!)
+     * (update connection using the old config file)<br>
+     * (Maybe you should invoke DBWorker.sleep() before invoking this method!)<br>
      *
-     * @throws UninitializedException 未初始化异常 (UninitializedException)
-     * @return true 更新成功 (Done!)， false 更新失败 (you failed!)
+     * @throws UninitializedException 未初始化异常 (UninitializedException)<br>
+     * @return true 更新成功 (Done!)， false 更新失败 (you failed!)<br>
      */
     public static synchronized boolean update()
     {
@@ -160,12 +160,13 @@ public final class DBManager
     }
 
     /**
-     * 获取数据库连接, 不推荐外界直接使用
+     * 获取数据库连接, 不推荐外界直接使用<br>
      *
-     * (get a connection of database, don't advise!)
+     * (get a connection of database, don't advise!)<br>
      *
-     * @throws UninitializedException 如果你没有先调用初始化方法就会触发这个异常未初始化异常 (UninitializedException)
-     * @return 返回得到的数据库连接 (you get a connection)
+     * @throws UninitializedException 如果你没有先调用初始化方法就会触发这个异常未初始化异常 (UninitializedException)<br>
+     * @return 返回得到的数据库连接<br>
+     *     (you get a connection)<br>
      * */
     public static synchronized Connection getConnection() throws UninitializedException
     {
@@ -208,11 +209,12 @@ public final class DBManager
     }
 
     /**
-     * 获取当前事务的提交方式，默认是自动提交
+     * 获取当前事务的提交方式，默认是自动提交<br>
      *
-     * (get transaction state, default auto commit)
+     * (get transaction state, default auto commit)<br>
      *
-     * @return 返回是否自动提交事务 (the state)
+     * @return 返回是否自动提交事务<br>
+     *     (the state)<br>
      * */
     public static synchronized boolean isAutoCommit()
     {
@@ -220,11 +222,12 @@ public final class DBManager
     }
 
     /**
-     * 设置事务提交方式，默认是自动提交
+     * 设置事务提交方式，默认是自动提交<br>
      *
-     * (get transaction state, default auto commit)
+     * (get transaction state, default auto commit)<br>
      *
-     * @param autoCommit 提交方式 (if auto commit)
+     * @param autoCommit 提交方式<br>
+     *                   (if auto commit)<br>
      * */
     public static synchronized void setAutoCommit(boolean autoCommit)
     {
@@ -232,10 +235,10 @@ public final class DBManager
     }
 
     /**
-     * 获得一个工作者，用来对数据库进行基本操作
+     * 获得一个工作者，用来对数据库进行基本操作<br>
      *
-     * (get a worker, and do work!)
-     * @return 返回获取到工作者
+     * (get a worker, and do work!)<br>
+     * @return 返回获取到工作者<br>got a DBWorker
      * */
     public static synchronized DBWorker getDBWorker()
     {
