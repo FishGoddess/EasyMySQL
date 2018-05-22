@@ -198,8 +198,10 @@ public final class DBWorker
 
                 s.addBatch(sql);
             }
+            int[] affects = s.executeBatch();
+            s.clearBatch(); // clear the batch cache...
 
-            return s.executeBatch();
+            return affects;
         }
         catch (SQLException e)
         {
