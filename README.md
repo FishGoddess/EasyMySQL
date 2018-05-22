@@ -78,6 +78,14 @@ if you use DBManager.update(File) to update infomaton of database, you will get 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ***update*** !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+### *2018-5-22:*<br/>
+1. 新增了 workBatch(String[] sqls) 方法，现在可以批处理 sql 语句<br/>
+(add a new method called workBatch(String[] sqls), now you can 'batch'...)<br/>
+2. 新增了 insertAll(object[] objects) 方法，现在可以一次插入多个对象<br/>
+(add a new method called insertAll(object[] objects), now you can insert many objects onetime)<br/>
+3. 改进了 javadoc，以前写的 doc 丑的一比，现在规整多了。。。<br/>
+(javadoc is good look, yeah, it is cuter :) ...)<br/>
+
 ### *2018-4-26:*<br/>
 1. 修复了一个查询的隐藏 bug。<br/>
 (fix a hidden bug...)<br/>
