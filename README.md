@@ -3,15 +3,15 @@
 ## A simplified toolkit for mysql...
 
 
-**最终可用版本在 out/artifacts/EasyMysql_jar 中**<br/>
-the final version is in out/artifacts/EasyMysql_jar
+**最终可用版本在 releases 文件夹中**<br/>
+the final version is in releases<br/>
 
-
-**或者你也可以使用 EasyMysql.rar，里面包含了框架**<br/>
-or you can download EasyMysql.rar, which is jars
+**项目发布版本分为两种，一种是不带依赖的 jar 包，占用空间很小；一种是带了全部依赖的 jar 包，方便引用。**<br/>
+it has two releases version: one is jar with no dependency, the other one is jar with dependencies<br/>
 
 ### 下面演示了结合 AutoMySQL 小框架的查询操作：
 #### if you use AutoMySQL and this jar:
+#### AutoMySQL 请点击: [AutoMySQL](https://github.com/FishGoddess/AutoMySQL)
 ##### （代码中的 com.fish.Book.java 在源码中有提供）
     import com.fish.core.DBManager;
     import com.fish.core.DBWorker;
