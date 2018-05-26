@@ -1,7 +1,8 @@
 package com.fish.core;
 
-import com.fish.log.Logger;
 import core.MySQL;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 
 import java.io.*;
 import java.sql.*;
@@ -19,6 +20,13 @@ import java.util.Map;
  */
 public final class DBWorker
 {
+    /**
+     * 记录日志
+     *
+     * (log)
+     */
+    private static Log log = LogFactory.getLog(DBWorker.class);
+
     /**
      * 叫醒工人，开始干活！<br>
      * 连接到数据库<br>
@@ -112,7 +120,7 @@ public final class DBWorker
         }
         catch (SQLException e)
         {
-            Logger.warn("资源释放失败！可能你并没有叫他干活，他还不困 (斜眼笑:))");
+            log.warn("资源释放失败！可能你并没有叫他干活，他还不困 (斜眼笑:))", e);
         }
     }
 
@@ -129,7 +137,7 @@ public final class DBWorker
         }
         catch (SQLException e)
         {
-            Logger.warn("提交事务失败！");
+            log.warn("提交事务失败！", e);
 
             try
             {
@@ -138,7 +146,7 @@ public final class DBWorker
             }
             catch (SQLException ee)
             {
-                Logger.err("事务回滚失败！");
+                log.error("事务回滚失败！");
             }
         }
     }
@@ -194,7 +202,7 @@ public final class DBWorker
             for (String sql : sqls)
             {
                 // log...
-                Logger.info("sql: " + sql);
+                log.info("sql: " + sql);
 
                 s.addBatch(sql);
             }
@@ -205,7 +213,7 @@ public final class DBWorker
         }
         catch (SQLException e)
         {
-            Logger.err("命令执行失败！请检查 SQL 语法！也有可能是这个工人累死了！（斜眼笑）");
+            log.error("命令执行失败！请检查 SQL 语法！也有可能是这个工人累死了！（斜眼笑）", e);
             return new int[] {-1};
         }
     }
@@ -238,7 +246,7 @@ public final class DBWorker
     public ResultSet workQuery(String sql)
     {
         // log...
-        Logger.info("sql: " + sql);
+        log.info("sql: " + sql);
 
         try
         {
@@ -247,7 +255,7 @@ public final class DBWorker
         }
         catch (SQLException e)
         {
-            Logger.warn("命令执行失败！请检查 SQL 语法！也有可能是这个工人累死了！（斜眼笑）");
+            log.warn("命令执行失败！请检查 SQL 语法！也有可能是这个工人累死了！（斜眼笑）", e);
             return null;
         }
     }
@@ -309,8 +317,8 @@ public final class DBWorker
         // 防止误操作导致删除整份表！
         if ("1".equals(selection))
         {
-            Logger.warn("警告：您传入的值是 1，这将会删除整份表！");
-            Logger.warn("为了保证您是真的想删除而不是误操作，请在传参时将 selection 传入值为 \"ALL\"!");
+            log.warn("警告：您传入的值是 1，这将会删除整份表！");
+            log.warn("为了保证您是真的想删除而不是误操作，请在传参时将 selection 传入值为 \"ALL\"!");
             return false;
         }
 
@@ -329,7 +337,7 @@ public final class DBWorker
         }
         catch (SQLException e)
         {
-            Logger.err("删除失败！请检查选择器是否输入正确！");
+            log.error("删除失败！请检查选择器是否输入正确！", e);
             return false;
         }
     }
@@ -426,7 +434,7 @@ public final class DBWorker
         try
         {
             // log...
-            Logger.info("sql: " + sql.toString());
+            log.info("sql: " + sql.toString());
 
             ps = connection.prepareStatement(sql.toString());
 
@@ -452,7 +460,7 @@ public final class DBWorker
         }
         catch (SQLException e)
         {
-            Logger.warn("查询失败！请检查传入的选择器是否有效！");
+            log.warn("查询失败！请检查传入的选择器是否有效！");
             return null;
         }
     }
@@ -508,7 +516,7 @@ public final class DBWorker
             }
             catch (SQLException e)
             {
-                Logger.warn("封装对象失败！");
+                log.warn("封装对象失败！");
             }
         }
 
@@ -562,7 +570,7 @@ public final class DBWorker
         }
         catch (IOException e)
         {
-            Logger.warn("文件写出异常！请检查路径！");
+            log.warn("文件写出异常！请检查路径！");
             return false;
         }
     }

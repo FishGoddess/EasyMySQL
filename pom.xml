@@ -6,7 +6,7 @@
 
     <groupId>com.fish</groupId>
     <artifactId>EasyMysql</artifactId>
-    <version>2.4-stable</version>
+    <version>2.4.2-stable</version>
     <packaging>jar</packaging>
 
     <dependencies>

@@ -78,6 +78,14 @@ if you use DBManager.update(File) to update infomaton of database, you will get 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ***update*** !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+### *2018-5-26:*<br/>
+1. 抛弃了原本自己写的 log 类，转为使用 commons-logging 记录日志，目前实现类为 java.util.logging。<br/>
+(My own log class is low-level... So I replace it with commons-logging, now its implement is java.util.logging)<br/>
+2. 将项目转为了 maven 项目，方便拓展。<br/>
+(I convert this project to maven project, for extending)<br/>
+3. 项目发布版本分为两种，一种是不带依赖的 jar 包，占用空间很小；一种是带了全部依赖的 jar 包，方便引用。<br/>
+(now it has two releases version: one is jar with no dependency, the other one is jar with dependencies)<br/>
+
 ### *2018-5-22:*<br/>
 1. 新增了 workBatch(String[] sqls) 方法，现在可以批处理 sql 语句<br/>
 (add a new method called workBatch(String[] sqls), now you can 'batch'...)<br/>

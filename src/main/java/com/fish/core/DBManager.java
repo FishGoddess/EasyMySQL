@@ -1,9 +1,9 @@
 package com.fish.core;
 
 import com.fish.exception.UninitializedException;
-import com.fish.log.Logger;
-import core.MySQL;
 import org.apache.commons.dbcp2.BasicDataSourceFactory;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 
 import javax.sql.DataSource;
 import java.io.BufferedInputStream;
@@ -12,7 +12,6 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.SQLException;
-import java.util.Map;
 import java.util.Properties;
 
 /**
@@ -24,6 +23,13 @@ import java.util.Properties;
  * */
 public final class DBManager
 {
+    /**
+     * 日志记录
+     *
+     * (log)
+     */
+    private static Log log = LogFactory.getLog(DBManager.class);
+
     /**
      * 标记是否已经初始化，除非调用 update 方法，否则该变量不应该被改写
      *
@@ -182,7 +188,7 @@ public final class DBManager
         }
         catch (SQLException e)
         {
-            Logger.err("创建连接失败！请检查地址或用户名密码的正确性以及网络是否可用！");
+            log.error("创建连接失败！请检查地址或用户名密码的正确性以及网络是否可用！", e);
         }
 
         /*try
