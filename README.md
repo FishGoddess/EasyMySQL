@@ -1,4 +1,4 @@
-# easyMySQL
+# EasyMySQL
 ## 一个简化的 mysql 数据库操作库。。。                                                                                     
 ## A simplified toolkit for mysql...
 
