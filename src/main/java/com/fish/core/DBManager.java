@@ -94,12 +94,12 @@ public final class DBManager
             }
             catch (IOException e)
             {
-                System.err.println("配置文件读取异常");
+                log.error("配置文件读取异常", e);
                 System.exit(1);
             }
             catch (Exception ex)
             {
-                System.err.println("数据库连接池创建失败！");
+                log.error("数据库连接池创建失败！", ex);
                 System.exit(1);
             }
         }

@@ -8,7 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4d6c46e6-1f87-4b19-a378-baa98a8664b4" name="默认的" comment="2018-5-26：转为 commons-logging 记录日志">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fish/core/DBManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fish/core/DBManager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,7 +41,7 @@
       <file leaf-file-name="DBWorker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fish/core/DBWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9760">
+            <state relative-caret-position="807">
               <caret line="554" column="4" selection-start-line="554" selection-start-column="4" selection-end-line="554" selection-end-column="4" />
               <folding>
                 <element signature="method#getSqlOrder#0;class#DBWorker#0" />
@@ -59,23 +59,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="3" selection-start-column="3" selection-end-column="3" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="DBManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fish/core/DBManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="85" column="20" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
+            <state relative-caret-position="310">
+              <caret line="209" column="66" lean-forward="true" selection-start-line="209" selection-start-column="66" selection-end-line="209" selection-end-column="66" />
+              <folding>
+                <element signature="method#init#0;class#DBManager#0" />
+                <element signature="method#checkIfInited#0;class#DBManager#0" />
+                <element signature="method#update#0;class#DBManager#0" />
+                <element signature="method#update#1;class#DBManager#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,6 +87,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Test</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -130,10 +125,10 @@
         <option value="$PROJECT_DIR$/How to use.txt" />
         <option value="$PROJECT_DIR$/src/com/fish/core/DBWorker.java" />
         <option value="$PROJECT_DIR$/src/test/java/DBWorkerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fish/core/DBManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fish/core/DBWorker.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fish/core/DBManager.java" />
       </list>
     </option>
   </component>
@@ -202,6 +197,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="EasyMysql" type="58d84e3e:PackageViewProjectNode" />
+              <item name="EasyMysql" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="EasyMysql" type="58d84e3e:PackageViewProjectNode" />
+              <item name="EasyMysql" type="616d4139:PackageViewModuleNode" />
+              <item name="com.fish" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -253,24 +266,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="EasyMysql" type="58d84e3e:PackageViewProjectNode" />
-              <item name="EasyMysql" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="EasyMysql" type="58d84e3e:PackageViewProjectNode" />
-              <item name="EasyMysql" type="616d4139:PackageViewModuleNode" />
-              <item name="com.fish" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -388,12 +383,6 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.DBWorkerTest.testQueryStrings" />
@@ -461,7 +450,8 @@
       <workItem from="1527311106338" duration="76000" />
       <workItem from="1527311319258" duration="2021000" />
       <workItem from="1527313358421" duration="841000" />
-      <workItem from="1527314472200" duration="75000" />
+      <workItem from="1527314472200" duration="255000" />
+      <workItem from="1528174284414" duration="121000" />
     </task>
     <task id="LOCAL-00001" summary="默认的">
       <created>1519447463277</created>
@@ -729,7 +719,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527313895156</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="2018-5-26：转为 commons-logging 记录日志">
+      <created>1527314556019</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1527314556019</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -744,7 +741,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76258000" />
+    <option name="totallyTimeSpent" value="76559000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -767,8 +764,8 @@
       <window_info anchor="right" id="Event Log" order="14" side_tool="true" weight="0.32853332" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.2096" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="right" x="0" y="23" width="1920" height="1017" id="Run" order="13" side_tool="true" type="WINDOWED" weight="0.32936078" />
       <window_info anchor="right" id="Version Control" order="10" sideWeight="0.49837488" weight="0.32889125" />
+      <window_info anchor="right" x="0" y="23" width="1920" height="1017" id="Run" order="13" side_tool="true" type="WINDOWED" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.30627707" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
@@ -778,19 +775,19 @@
       <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
       <window_info id="Favorites" order="4" show_stripe_button="false" side_tool="true" />
-      <window_info anchor="bottom" id="找到" order="9" weight="0.32980973" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="5" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="消息" order="8" weight="0.32980973" />
-      <window_info anchor="bottom" x="150" y="296" width="838" height="542" id="运行" order="6" type="WINDOWED" weight="0.32980973" />
       <window_info id="设计师" order="5" />
+      <window_info anchor="bottom" x="150" y="296" width="838" height="542" id="运行" order="6" type="WINDOWED" weight="0.32980973" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="调试" order="7" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="right" id="控制板" order="9" />
-      <window_info anchor="bottom" id="Messages" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="找到" order="9" weight="0.32980973" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
     </layout>
@@ -1240,13 +1237,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DB.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DBWorkerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -1254,22 +1244,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fish/core/DBManager.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="3" selection-start-column="3" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1049">
-          <caret line="190" column="59" selection-start-line="190" selection-start-column="59" selection-end-line="190" selection-end-column="59" />
-          <folding>
-            <element signature="method#init#0;class#DBManager#0" />
-            <element signature="method#checkIfInited#0;class#DBManager#0" />
-            <element signature="method#update#0;class#DBManager#0" />
-            <element signature="method#update#1;class#DBManager#0" />
-          </folding>
+        <state relative-caret-position="320">
+          <caret line="85" column="20" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fish/core/DBWorker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9760">
+        <state relative-caret-position="807">
           <caret line="554" column="4" selection-start-line="554" selection-start-column="4" selection-end-line="554" selection-end-column="4" />
           <folding>
             <element signature="method#getSqlOrder#0;class#DBWorker#0" />
@@ -1286,20 +1287,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fish/core/DBManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="85" column="20" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="3" selection-start-column="3" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
+        <state relative-caret-position="310">
+          <caret line="209" column="66" lean-forward="true" selection-start-line="209" selection-start-column="66" selection-end-line="209" selection-end-column="66" />
+          <folding>
+            <element signature="method#init#0;class#DBManager#0" />
+            <element signature="method#checkIfInited#0;class#DBManager#0" />
+            <element signature="method#update#0;class#DBManager#0" />
+            <element signature="method#update#1;class#DBManager#0" />
+          </folding>
         </state>
       </provider>
     </entry>
