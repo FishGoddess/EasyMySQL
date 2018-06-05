@@ -8,7 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4d6c46e6-1f87-4b19-a378-baa98a8664b4" name="默认的" comment="2018-5-26：转为 commons-logging 记录日志">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fish/core/DBManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fish/core/DBManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/releases/EasyMysql-2.4.2-stable-jar-with-dependencies.rar" beforeDir="false" afterPath="$PROJECT_DIR$/releases/EasyMysql-2.4.2-stable-jar-with-dependencies.rar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/releases/EasyMysql-2.4.2-stable.rar" beforeDir="false" afterPath="$PROJECT_DIR$/releases/EasyMysql-2.4.2-stable.rar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,7 +42,7 @@
       <file leaf-file-name="DBWorker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fish/core/DBWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="807">
+            <state relative-caret-position="9760">
               <caret line="554" column="4" selection-start-line="554" selection-start-column="4" selection-end-line="554" selection-end-column="4" />
               <folding>
                 <element signature="method#getSqlOrder#0;class#DBWorker#0" />
@@ -63,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fish/core/DBManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="310">
-              <caret line="209" column="66" lean-forward="true" selection-start-line="209" selection-start-column="66" selection-end-line="209" selection-end-column="66" />
+              <caret line="209" column="66" selection-start-line="209" selection-start-column="66" selection-end-line="209" selection-end-column="66" />
               <folding>
                 <element signature="method#init#0;class#DBManager#0" />
                 <element signature="method#checkIfInited#0;class#DBManager#0" />
@@ -197,24 +198,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="EasyMysql" type="58d84e3e:PackageViewProjectNode" />
-              <item name="EasyMysql" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="EasyMysql" type="58d84e3e:PackageViewProjectNode" />
-              <item name="EasyMysql" type="616d4139:PackageViewModuleNode" />
-              <item name="com.fish" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,6 +246,22 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="fish" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="EasyMysql" type="58d84e3e:PackageViewProjectNode" />
+              <item name="EasyMysql" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="EasyMysql" type="58d84e3e:PackageViewProjectNode" />
+              <item name="EasyMysql" type="616d4139:PackageViewModuleNode" />
+              <item name="com.fish" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -451,7 +452,9 @@
       <workItem from="1527311319258" duration="2021000" />
       <workItem from="1527313358421" duration="841000" />
       <workItem from="1527314472200" duration="255000" />
-      <workItem from="1528174284414" duration="121000" />
+      <workItem from="1528174284414" duration="159000" />
+      <workItem from="1528177441517" duration="67000" />
+      <workItem from="1528178781281" duration="266000" />
     </task>
     <task id="LOCAL-00001" summary="默认的">
       <created>1519447463277</created>
@@ -726,7 +729,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527314556019</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="2018-5-26：转为 commons-logging 记录日志">
+      <created>1528174424596</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1528174424596</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -741,7 +751,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76559000" />
+    <option name="totallyTimeSpent" value="76930000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -754,7 +764,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="TODO" order="12" weight="0.32889125" />
@@ -764,8 +773,8 @@
       <window_info anchor="right" id="Event Log" order="14" side_tool="true" weight="0.32853332" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.2096" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="right" id="Version Control" order="10" sideWeight="0.49837488" weight="0.32889125" />
       <window_info anchor="right" x="0" y="23" width="1920" height="1017" id="Run" order="13" side_tool="true" type="WINDOWED" weight="0.32936078" />
+      <window_info anchor="right" id="Version Control" order="10" sideWeight="0.49837488" weight="0.32889125" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.30627707" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
@@ -775,21 +784,21 @@
       <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="Favorites" order="4" show_stripe_button="false" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info id="Favorites" order="4" show_stripe_button="false" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="5" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="消息" order="8" weight="0.32980973" />
-      <window_info id="设计师" order="5" />
       <window_info anchor="bottom" x="150" y="296" width="838" height="542" id="运行" order="6" type="WINDOWED" weight="0.32980973" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
       <window_info anchor="bottom" id="调试" order="7" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="right" id="控制板" order="9" />
+      <window_info anchor="bottom" id="消息" order="8" weight="0.32980973" />
       <window_info anchor="bottom" id="找到" order="9" weight="0.32980973" />
+      <window_info id="设计师" order="5" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1270,7 +1279,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fish/core/DBWorker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="807">
+        <state relative-caret-position="9760">
           <caret line="554" column="4" selection-start-line="554" selection-start-column="4" selection-end-line="554" selection-end-column="4" />
           <folding>
             <element signature="method#getSqlOrder#0;class#DBWorker#0" />
@@ -1290,7 +1299,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fish/core/DBManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
-          <caret line="209" column="66" lean-forward="true" selection-start-line="209" selection-start-column="66" selection-end-line="209" selection-end-column="66" />
+          <caret line="209" column="66" selection-start-line="209" selection-start-column="66" selection-end-line="209" selection-end-column="66" />
           <folding>
             <element signature="method#init#0;class#DBManager#0" />
             <element signature="method#checkIfInited#0;class#DBManager#0" />
