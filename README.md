@@ -13,59 +13,59 @@ it has two releases version: one is jar with no dependency, the other one is jar
 #### if you use AutoMySQL and this jar:
 #### AutoMySQL 请点击: [AutoMySQL](https://github.com/FishGoddess/AutoMySQL)
 ##### （代码中的 com.fish.Book.java 在源码中有提供）
-    import com.fish.core.DBManager;
-    import com.fish.core.DBWorker;
+```java
+import com.fish.core.DBManager;
+import com.fish.core.DBWorker;
+import java.io.File;
     
-    import java.io.File;
-    
-    public class Test
+public class Test
+{ 
+    public static void main(String[] args)
     {
-        public static void main(String[] args)
-        {
-            // set config...
-            DBManager.init(new File("DB.properties"));
+        // set config...
+        DBManager.init(new File("DB.properties"));
     
-            // auto commit ==> default is false
-            //DBManager.setAutoCommit(false);
+        // auto commit ==> default is false
+        //DBManager.setAutoCommit(false);
     
-            // connect to database...
-            DBWorker dbWorker = DBManager.getDBWorker();
+        // connect to database...
+        DBWorker dbWorker = DBManager.getDBWorker();
     
-            com.fish.Book book = new com.fish.Book();
-            book.setName("奇异人生");
-            book.setPrice(68);
+        com.fish.Book book = new com.fish.Book();
+        book.setName("奇异人生");
+        book.setPrice(68);
     
-            // insert a new book in database...
-            //dbWorker.insert(book);
+        // insert a new book in database...
+        //dbWorker.insert(book);
     
-            // put whole table in a file...
-            //dbWorker.putTableInFile("book", "Z:/book.txt");
+        // put whole table in a file...
+        //dbWorker.putTableInFile("book", "Z:/book.txt");
     
-            // query a book...
-            book = dbWorker.query(book, com.fish.Book.class);
-            System.out.println(book);
+        // query a book...
+        book = dbWorker.query(book, com.fish.Book.class);
+        System.out.println(book);
     
-            List<Object> books = new ArrayList<>();
-            books.add(new Book("蒙太奇手法", 129));
-            books.add(new Book("音乐素养与教养", 72));
-            books.add(new Book("中国为什么这么强大", 999));
-            books.add(new Book("看世界", 69));
-            books.add(new Book("读者", 12));
+        List<Object> books = new ArrayList<>();
+        books.add(new Book("蒙太奇手法", 129));
+        books.add(new Book("音乐素养与教养", 72));
+        books.add(new Book("中国为什么这么强大", 999));
+        books.add(new Book("看世界", 69));
+        books.add(new Book("读者", 12));
     
-            // insert many books...
-            dbWorker.insertAll(books.toArray());
+        // insert many books...
+        dbWorker.insertAll(books.toArray());
+        
+        // batch
+        dbWorker.workBatch(new String[] {
+                "INSERT INTO book(name, price) VALUES('论三国', 23), ('孙子兵法', 24);",
+                "INSERT INTO book(name, price) VALUE('世界之大宇宙之小', 89);"
+        });
             
-            // batch
-            dbWorker.workBatch(new String[] {
-                    "INSERT INTO book(name, price) VALUES('论三国', 23), ('孙子兵法', 24);",
-                    "INSERT INTO book(name, price) VALUE('世界之大宇宙之小', 89);"
-            });
-            
-            // release resources and commit transaction...
-            dbWorker.sleep();
-        }
+        // release resources and commit transaction...
+        dbWorker.sleep(); 
     }
-
+}
+```
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ***bug*** !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 

@@ -8,8 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4d6c46e6-1f87-4b19-a378-baa98a8664b4" name="默认的" comment="2018-5-26：转为 commons-logging 记录日志">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/releases/EasyMysql-2.4.2-stable-jar-with-dependencies.rar" beforeDir="false" afterPath="$PROJECT_DIR$/releases/EasyMysql-2.4.2-stable-jar-with-dependencies.rar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/releases/EasyMysql-2.4.2-stable.rar" beforeDir="false" afterPath="$PROJECT_DIR$/releases/EasyMysql-2.4.2-stable.rar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DBManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fish/core/DBManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="310">
@@ -71,6 +70,21 @@
                 <element signature="method#update#0;class#DBManager#0" />
                 <element signature="method#update#1;class#DBManager#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-512">
+                <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+                <folding>
+                  <element signature="imports" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -128,8 +142,8 @@
         <option value="$PROJECT_DIR$/src/test/java/DBWorkerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fish/core/DBWorker.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/fish/core/DBManager.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -199,18 +213,28 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="EasyMysql" type="58d84e3e:PackageViewProjectNode" />
+              <item name="EasyMysql" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="EasyMysql" type="58d84e3e:PackageViewProjectNode" />
+              <item name="EasyMysql" type="616d4139:PackageViewModuleNode" />
+              <item name="com.fish" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="EasyMysql" type="b2602c69:ProjectViewProjectNode" />
               <item name="EasyMysql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EasyMysql" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyMysql" type="462c0819:PsiDirectoryNode" />
-              <item name="releases" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EasyMysql" type="b2602c69:ProjectViewProjectNode" />
@@ -251,22 +275,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="EasyMysql" type="58d84e3e:PackageViewProjectNode" />
-              <item name="EasyMysql" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="EasyMysql" type="58d84e3e:PackageViewProjectNode" />
-              <item name="EasyMysql" type="616d4139:PackageViewModuleNode" />
-              <item name="com.fish" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -454,7 +463,8 @@
       <workItem from="1527314472200" duration="255000" />
       <workItem from="1528174284414" duration="159000" />
       <workItem from="1528177441517" duration="67000" />
-      <workItem from="1528178781281" duration="266000" />
+      <workItem from="1528178781281" duration="430000" />
+      <workItem from="1531307700960" duration="239000" />
     </task>
     <task id="LOCAL-00001" summary="默认的">
       <created>1519447463277</created>
@@ -736,7 +746,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528174424596</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="2018-5-26：转为 commons-logging 记录日志">
+      <created>1528179114968</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1528179114968</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -751,7 +768,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76930000" />
+    <option name="totallyTimeSpent" value="77333000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -764,6 +781,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="TODO" order="12" weight="0.32889125" />
@@ -773,8 +791,8 @@
       <window_info anchor="right" id="Event Log" order="14" side_tool="true" weight="0.32853332" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.2096" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="right" x="0" y="23" width="1920" height="1017" id="Run" order="13" side_tool="true" type="WINDOWED" weight="0.32936078" />
       <window_info anchor="right" id="Version Control" order="10" sideWeight="0.49837488" weight="0.32889125" />
+      <window_info anchor="right" x="0" y="23" width="1920" height="1017" id="Run" order="13" side_tool="true" type="WINDOWED" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.30627707" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
@@ -784,21 +802,21 @@
       <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
       <window_info id="Favorites" order="4" show_stripe_button="false" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="5" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="找到" order="9" weight="0.32980973" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info id="设计师" order="5" />
       <window_info anchor="bottom" x="150" y="296" width="838" height="542" id="运行" order="6" type="WINDOWED" weight="0.32980973" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
+      <window_info anchor="bottom" id="消息" order="8" weight="0.32980973" />
       <window_info anchor="bottom" id="调试" order="7" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="right" id="控制板" order="9" />
-      <window_info anchor="bottom" id="消息" order="8" weight="0.32980973" />
-      <window_info anchor="bottom" id="找到" order="9" weight="0.32980973" />
-      <window_info id="设计师" order="5" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1253,16 +1271,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="3" selection-start-column="3" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -1306,6 +1314,19 @@
             <element signature="method#update#0;class#DBManager#0" />
             <element signature="method#update#1;class#DBManager#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-512">
+            <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <folding>
+              <element signature="imports" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
