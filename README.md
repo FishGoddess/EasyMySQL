@@ -2,6 +2,8 @@
 ## 一个简化的 mysql 数据库操作库。。。                                                                                     
 ## A simplified toolkit for mysql...
 
+[gitee 仓库](https://gitee.com/FishGoddess/EasyMySQL)
+
 
 **最终可用版本在 releases 文件夹中**<br/>
 the final version is in releases<br/>
